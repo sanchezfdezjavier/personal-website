@@ -1,0 +1,5 @@
+div.book-shelf__container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}

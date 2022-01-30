@@ -1,2 +1,7 @@
 div.main-title__container {
+  margin-top: 1rem;
+}
+
+div.main-title__subtitle {
+  margin-top: 1rem;
 }
