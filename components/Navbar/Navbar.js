@@ -20,28 +20,28 @@ export default function Navbar() {
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.github} className={styles["navbar-link"]}>
               <Button flat color="black" auto>
-                <AiFillGithub /> &nbsp;Github
+                <AiFillGithub /> Github
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.resume} className={styles["navbar-link"]}>
               <Button flat color="black" auto>
-                <HiOutlineDocumentText /> &nbsp;Resume
+                <HiOutlineDocumentText /> Resume
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.linkedin} className={styles["navbar-link"]}>
               <Button flat color="black" auto>
-                <FaLinkedin /> &nbsp;LinkedIn
+                <FaLinkedin /> LinkedIn
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.twitter} className={styles["navbar-link"]}>
               <Button flat color="black" auto>
-                <FaTwitter /> &nbsp;Twitter
+                <FaTwitter /> Twitter
               </Button>
             </a>
           </li>
@@ -51,7 +51,7 @@ export default function Navbar() {
               className={styles["navbar-link"]}
             >
               <Button flat color="black" auto>
-                Blog&nbsp; <HiOutlineArrowNarrowRight />
+                Blog <HiOutlineArrowNarrowRight />
               </Button>
             </a>
           </li>
@@ -65,7 +65,7 @@ export default function Navbar() {
           <li className={styles["navbar-link__list-item"]}>
             <a href="" className={styles["navbar-link"]}>
               <Button flat color="black" auto>
-                <BsBook /> &nbsp;Books
+                <BsBook /> Books
               </Button>
             </a>
           </li>
