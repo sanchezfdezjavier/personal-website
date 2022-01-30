@@ -7,7 +7,9 @@ import { Text } from "@nextui-org/react";
 export default function AboutMe() {
   return (
     <div className={styles["about-me__container"]}>
-      <Text h2>About me</Text>
+      <Text h2 size={40}>
+        About me
+      </Text>
       <p className={styles["about-me__text"]}>
         Culpa enim anim magna ex cillum cillum non ex consequat officia laboris
         ipsum nulla. Voluptate minim ipsum dolore qui excepteur voluptate. Et

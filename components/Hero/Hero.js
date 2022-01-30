@@ -8,9 +8,11 @@ export default function Hero() {
       <Text h1 size={60} weight="bold">
         Hi, I'm Javi
       </Text>
-      <Text h2 size={20} weight="light">
-        Engineer, Developer and Curious
-      </Text>
+      <div className={styles["main-title__subtitle"]}>
+        <Text h2 size={20} weight="light">
+          Engineer, Developer and Curious
+        </Text>
+      </div>
     </div>
   );
 }

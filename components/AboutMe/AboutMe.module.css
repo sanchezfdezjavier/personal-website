@@ -4,18 +4,14 @@ div.about-me__container {
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  margin-top: 3rem;
 }
 
 p.about-me__text {
   font-size: 1.125rem;
   color: rgb(75 85 99/1);
   text-align: justify;
+  line-height: 1.75rem;
+  font-family: "Inter var", -apple-system, "system-ui", "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
-border: 0 solid #e5e7eb;
-box-sizing: border-box;
-font-family: "Inter var", -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen,
-  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-line-height: 1.75rem;
-margin: 1.5rem auto 0;
-max-width: 48rem;

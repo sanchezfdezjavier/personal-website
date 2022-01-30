@@ -1,0 +1,30 @@
+nav.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100vw;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  right: 4rem;
+}
+
+a.navbar-brand {
+  text-decoration: none;
+  color: rgb(75 85 99/1);
+  display: block;
+}
+
+a.navbar-link {
+  text-decoration: none !important;
+}
+
+ul.navbar-links__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li.navbar-link__list-item {
+  margin: 0rem 0.5rem;
+}
