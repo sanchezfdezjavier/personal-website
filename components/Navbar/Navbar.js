@@ -1,9 +1,12 @@
 import styles from "./Navbar.module.css";
 
 import { AiFillGithub } from "react-icons/ai";
-import { HiOutlineDocumentText } from "react-icons/hi";
+import {
+  HiOutlineDocumentText,
+  HiOutlineArrowNarrowRight,
+} from "react-icons/hi";
 import { BsBook } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
 import { Button } from "@nextui-org/react";
 
@@ -36,12 +39,19 @@ export default function Navbar() {
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
+            <a href={externalLinks.twitter} className={styles["navbar-link"]}>
+              <Button flat color="black" auto>
+                <FaTwitter /> &nbsp;Twitter
+              </Button>
+            </a>
+          </li>
+          <li className={styles["navbar-link__list-item"]}>
             <a
               href="https://blog.javisanchez.me/"
               className={styles["navbar-link"]}
             >
               <Button flat color="black" auto>
-                Blog
+                Blog&nbsp; <HiOutlineArrowNarrowRight />
               </Button>
             </a>
           </li>

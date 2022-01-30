@@ -10,6 +10,8 @@ import BookShelf from "../components/BookShelf/BookShelf";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+
 export default function Home() {
   return (
     <div className={styles["main-container"]}>
@@ -22,7 +24,8 @@ export default function Home() {
           className={styles["main-button__alink"]}
         >
           <Button shadow size="xl" color="black">
-            My Blog
+            My Blog&nbsp;
+            <HiOutlineArrowNarrowRight />
           </Button>
         </a>
       </div>

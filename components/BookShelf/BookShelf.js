@@ -23,7 +23,7 @@ const bookCovers = [
 
 export default function BookShelf() {
   const books = bookCovers.map((book) => {
-    return <BookCover coverSrc={book.src} />;
+    return <BookCover key={book.title} coverSrc={book.src} />;
   });
   return <div className={styles["book-shelf__container"]}>{books}</div>;
 }

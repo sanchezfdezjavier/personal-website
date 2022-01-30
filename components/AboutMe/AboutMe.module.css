@@ -4,7 +4,7 @@ div.about-me__container {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 p.about-me__text {
