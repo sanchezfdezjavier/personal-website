@@ -18,6 +18,20 @@ export default function Navbar() {
       <div className={styles["navbar-links__container"]}>
         <ul className={styles["navbar-links__list"]}>
           <li className={styles["navbar-link__list-item"]}>
+            <a href="" className={styles["navbar-link"]}>
+              <Button light color="black" auto>
+                About Me
+              </Button>
+            </a>
+          </li>
+          <li className={styles["navbar-link__list-item"]}>
+            <a href="" className={styles["navbar-link"]}>
+              <Button light color="black" auto>
+                Books
+              </Button>
+            </a>
+          </li>
+          <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.github} className={styles["navbar-link"]}>
               <Button flat color="black" auto>
                 <AiFillGithub /> &nbsp;Github
@@ -52,20 +66,6 @@ export default function Navbar() {
             >
               <Button flat color="black" auto>
                 Blog&nbsp; <HiOutlineArrowNarrowRight />
-              </Button>
-            </a>
-          </li>
-          <li className={styles["navbar-link__list-item"]}>
-            <a href="" className={styles["navbar-link"]}>
-              <Button flat color="black" auto>
-                About Me
-              </Button>
-            </a>
-          </li>
-          <li className={styles["navbar-link__list-item"]}>
-            <a href="" className={styles["navbar-link"]}>
-              <Button flat color="black" auto>
-                <BsBook /> &nbsp;Books
               </Button>
             </a>
           </li>

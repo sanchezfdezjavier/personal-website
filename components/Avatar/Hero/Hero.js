@@ -1,3 +1,5 @@
+import { Text } from "@nextui-org/react";
+
 export default function Hero() {
   return (
     <div className={styles["main-title__container"]}>

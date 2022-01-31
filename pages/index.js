@@ -23,7 +23,7 @@ export default function Home() {
           href="https://blog.javisanchez.me"
           className={styles["main-button__alink"]}
         >
-          <Button shadow size="xl" color="black">
+          <Button shadow color="secondary" size="xl">
             My Blog&nbsp;
             <HiOutlineArrowNarrowRight />
           </Button>

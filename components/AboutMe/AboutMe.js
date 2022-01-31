@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./AboutMe.module.css";
 
 import { Text } from "@nextui-org/react";
@@ -7,9 +5,7 @@ import { Text } from "@nextui-org/react";
 export default function AboutMe() {
   return (
     <div className={styles["about-me__container"]}>
-      <Text h2 size={40}>
-        About me
-      </Text>
+      <h2 className="h2-subtitle">About me</h2>
       <p className={styles["about-me__text"]}>
         Hi! My name is Javi. I have the brain of an engineer, the heart of a
         designer, and the dreams and passion of a startup founder. I'm currently
@@ -21,7 +17,8 @@ export default function AboutMe() {
         I've won entrepreneurship and code hackathons, and even organized my own
         (+140 attendees)! Besides, I've designed, build and piloted FPV racing
         drones, coded the LiDAR perception system of a Formula Student car and
-        many more. <br />
+        many more.
+        <br />
         <br />
         Now, I plan to become a more experience Software Engineer with strong
         basements. I'm blogging in Hashnode to improve my writing and helping
