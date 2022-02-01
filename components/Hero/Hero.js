@@ -9,7 +9,7 @@ export default function Hero() {
         Hi, I'm Javi
       </Text>
       <div className={styles["main-title__subtitle"]}>
-        <Text h3 size={20} weight="light">
+        <Text h3 size={25} weight="light">
           Engineer, Developer and Curious
         </Text>
       </div>
