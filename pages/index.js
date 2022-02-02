@@ -13,29 +13,37 @@ import Projects from "../components/Projects/Projects";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
-import { mainButtonText } from "../config";
+import {
+  mainButtonText,
+  showMainButton,
+  showAboutme,
+  showProjects,
+  showBooks,
+  showAvatar,
+} from "../config";
 
 export default function Home() {
   return (
     <div className={styles["main-container"]}>
       <Navbar />
-      <Avatar />
+      {showAvatar && <Avatar />}
       <Hero />
-      <div className={styles["main-button__container"]}>
-        <a
-          href="https://blog.javisanchez.me"
-          className={styles["main-button__alink"]}
-        >
-          <Button color="primary" size="lg">
-            {mainButtonText}&nbsp;
-            <HiOutlineArrowNarrowRight />
-          </Button>
-        </a>
-      </div>
-      <AboutMe />
-      <Projects />
-      <EssentialReads />
-      <BookShelf />
+      {showMainButton && (
+        <div className={styles["main-button__container"]}>
+          <a
+            href="https://blog.javisanchez.me"
+            className={styles["main-button__alink"]}
+          >
+            <Button color="primary" size="lg">
+              {mainButtonText}&nbsp;
+              <HiOutlineArrowNarrowRight />
+            </Button>
+          </a>
+        </div>
+      )}
+      {showAboutme && <AboutMe />}
+      {showProjects && <Projects />}
+      {showBooks && <EssentialReads />}
       <Footer />
     </div>
   );

@@ -1,14 +1,25 @@
 // THIS IS THE FILE YOU ARE ONLY SUPPOSE TO EDIT
 
+// Avatar
+export const showAvatar = true;
+import avatar from "./assets/avatar_high.jpg";
+export const avatarSrc = avatar.src;
+
 // Title
 export const title = "Hi, I'm Javi";
 // Subtitle
+export const showSubtitle = true;
 export const subtitle = "Engineer, Developer and Creator";
 
 // Main button
+export const showMainButton = true;
 export const mainButtonText = "My Blog";
 
+// About me
+export const showAboutme = true;
+
 // Navbar links
+export const showNavbarLinks = true;
 export const externalLinks = {
   github: "https://github.com/sanchezfdezjavier",
   resume:
@@ -19,12 +30,16 @@ export const externalLinks = {
 };
 
 // Projects text
+export const showProjects = true;
+export const showProjectsText = true;
 export const projectsText =
   "Et sunt qui labore enim eu enim laboris minim dolor. Occaecat enim nisi \
 incididunt cupidatat. Deserunt et laboris Lorem enim occaecat sint velit \
 deserunt proident in id deserunt reprehenderit.";
 
-// Book covers
+// Books
+export const showBooks = true;
+
 import atomic from "./assets/books-covers/atomic-habits-cover.jpeg";
 import hooked from "./assets/books-covers/hooked-cover.jpg";
 import principles from "./assets/books-covers/principles-cover.jpeg";
@@ -41,3 +56,8 @@ export const bookCovers = [
   { title: "Zero to One", src: zeroOne.src },
   { title: "Hooked", src: hooked.src },
 ];
+
+// Footer
+export const showFooter = true;
+export const footerText =
+  "© Copyright 2022 Javier Sánchez Fernández — All rights reserved";
