@@ -2,7 +2,7 @@ import { Card, Row, Col, Text, Button } from "@nextui-org/react";
 
 export default function ProjectCard(props) {
   return (
-    <Card cover css={{ w: "100%", p: 0 }}>
+    <Card cover shadow css={{ w: "100%", p: 0 }}>
       <Card.Body>
         <Card.Image
           src={props.image}
