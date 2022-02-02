@@ -8,10 +8,10 @@ export default function AboutMe() {
       <h2 className="h2-subtitle">About me</h2>
       <p className={styles["about-me__text"]}>
         Hi! My name is Javi. I have the brain of an engineer, the heart of a
-        designer, and the dreams and passion of a startup founder. I'm currently
-        at Ubuntu/Canonical as a Software Engineer, working to build my
-        full-stack skill set. I've always been extremely curious and passionate
-        about learning new things that challenge the status quo.
+        designer, and the dreams and passion of en entepreneur. I'm currently at
+        Ubuntu/Canonical as a Software Engineer, working to build my full-stack
+        skill set. I've always been extremely curious and passionate about
+        learning new things that challenge the status quo.
         <br />
         <br />
         I've won entrepreneurship and code hackathons, and even organized my own

@@ -13,6 +13,8 @@ import Projects from "../components/Projects/Projects";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
+import { mainButtonText } from "../config";
+
 export default function Home() {
   return (
     <div className={styles["main-container"]}>
@@ -25,7 +27,7 @@ export default function Home() {
           className={styles["main-button__alink"]}
         >
           <Button color="primary" size="lg">
-            My Blog&nbsp;
+            {mainButtonText}&nbsp;
             <HiOutlineArrowNarrowRight />
           </Button>
         </a>

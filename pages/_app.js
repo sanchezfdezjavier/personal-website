@@ -22,7 +22,7 @@ const myTheme = createTheme({
 
 function MyApp({ Component, pageProps }) {
   return (
-    <NextUIProvider theme={myTheme}>
+    <NextUIProvider>
       <Component {...pageProps} />
     </NextUIProvider>
   );
