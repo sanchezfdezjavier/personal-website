@@ -8,13 +8,18 @@ import {
 import { BsBook } from "react-icons/bs";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
-import { Button } from "@nextui-org/react";
+import { Button, Text } from "@nextui-org/react";
 
 import { externalLinks } from "../../constants";
 
 export default function Navbar() {
   return (
     <nav className={styles["navbar-container"]}>
+      <div className={styles["navbar-brand"]}>
+        <Text h1 size={24} weight="bold">
+          Hi, I'm Javi
+        </Text>
+      </div>
       <div className={styles["navbar-links__container"]}>
         <ul className={styles["navbar-links__list"]}>
           <li className={styles["navbar-link__list-item"]}>

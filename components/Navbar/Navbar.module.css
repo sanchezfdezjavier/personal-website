@@ -1,7 +1,8 @@
 nav.navbar-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-content: center;
   width: 100vw;
   position: fixed;
   z-index: 100;
@@ -12,10 +13,11 @@ nav.navbar-container {
   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px; */
 }
 
-a.navbar-brand {
-  text-decoration: none;
-  color: rgb(75 85 99/1);
-  display: block;
+div.navbar-brand {
+  display: flex;
+  align-items: center;
+  /* background-color: yellow; */
+  margin-left: 8rem;
 }
 
 a.navbar-link {
@@ -23,9 +25,11 @@ a.navbar-link {
 }
 
 ul.navbar-links__list {
+  /* background-color: yellowgreen; */
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 li.navbar-link__list-item {
