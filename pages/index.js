@@ -9,6 +9,7 @@ import EssentialReads from "../components/EssentialReads/EssentialReads";
 import BookShelf from "../components/BookShelf/BookShelf";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
+import Projects from "../components/Projects/Projects";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
@@ -30,6 +31,7 @@ export default function Home() {
         </a>
       </div>
       <AboutMe />
+      <Projects />
       <EssentialReads />
       <BookShelf />
       <Footer />

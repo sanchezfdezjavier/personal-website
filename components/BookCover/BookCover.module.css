@@ -7,10 +7,17 @@ div.book__container {
 
 div.book__container:hover {
   transform: translateY(-1rem);
-  transition: transform 300ms ease;
+  transition: transform 300ms ease-in-out;
 }
 
-div.book-cover__container {
+div.book__container:after {
+  transform: translateY(0rem);
+  transition: transform 300ms ease-in-out;
+}
+
+div.book__container:hover:after {
+  transform: translateY(0rem);
+  transition: transform 300ms ease;
 }
 
 div.book-cover__container__overlay {

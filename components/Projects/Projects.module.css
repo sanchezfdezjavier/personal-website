@@ -1,0 +1,8 @@
+div.projects__container {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-top: 2rem;
+}
