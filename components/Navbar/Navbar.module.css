@@ -3,10 +3,13 @@ nav.navbar-container {
   flex-direction: row;
   justify-content: flex-end;
   width: 100vw;
-  position: absolute;
+  position: fixed;
   z-index: 100;
   top: 0;
+  left: 0;
   right: 4rem;
+  background-color: white;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px; */
 }
 
 a.navbar-brand {
