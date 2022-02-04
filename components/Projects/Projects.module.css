@@ -1,0 +1,16 @@
+div.projects__container {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+div.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 15rem 15rem;
+  grid-gap: 1rem;
+  grid-auto-flow: rows;
+}

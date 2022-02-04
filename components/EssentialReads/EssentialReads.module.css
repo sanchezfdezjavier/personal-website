@@ -1,0 +1,8 @@
+div.essential-reads__container {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-top: 4rem;
+}
