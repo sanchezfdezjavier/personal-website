@@ -24,6 +24,9 @@ import {
 
 export default function Home() {
   return (
+    // TODO: Optimize images
+    // TODO: Scroll disapear navbar brand and glass-line https://thewebdev.info/2021/09/25/how-to-detect-when-a-user-scrolls-to-bottom-of-div-with-react/#:~:text=div%20with%20React-,To%20detect%20when%20a%20user%20scrolls%20to%20bottom%20of%20div,property%20of%20the%20same%20element.&text=We%20call%20the%20useRef%20hook,inner%20div%2C%20which%20is%20scrollable.
+    // TODO: Change blue bottoms to black
     <div className={styles["main-container"]}>
       <Navbar />
       {showAvatar && <Avatar />}
