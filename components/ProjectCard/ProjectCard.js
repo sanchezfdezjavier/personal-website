@@ -15,8 +15,8 @@ export default function ProjectCard(props) {
         blur
         css={{
           position: "absolute",
-          bgBlur: "#0f1114",
-          borderTop: "$borderWeights$light solid $gray700",
+          bgBlur: "#ffffff",
+          borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
           bottom: 0,
           zIndex: 1,
         }}
@@ -33,7 +33,7 @@ export default function ProjectCard(props) {
                 flat
                 auto
                 rounded
-                css={{ color: "#FFEF02", bg: "#94f9f026" }}
+                css={{ color: "#ffffff", bg: "#94f9f026" }}
               >
                 <Text
                   css={{ color: "inherit" }}
