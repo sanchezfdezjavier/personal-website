@@ -8,9 +8,9 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 export default function Projects() {
   return (
-    <div className={styles["projects__container"]}>
+    <div className="section-container">
       <h2 className="h2-subtitle">Projects</h2>
-      <p>{projectsText}</p>
+      <p className="section-text">{projectsText}</p>
       <div className={styles["projects-grid"]}>
         <ProjectCard image={placeholderImg.src} title="NFT Collection" />
         <ProjectCard image={placeholderImg.src} title="NFT Collection" />
