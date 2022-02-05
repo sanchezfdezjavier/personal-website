@@ -39,28 +39,28 @@ export default function Navbar() {
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.github} className={styles["navbar-link"]}>
-              <Button flat color="primary" auto>
+              <Button bordered color="primary" auto>
                 <AiFillGithub /> &nbsp;Github
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.resume} className={styles["navbar-link"]}>
-              <Button flat color="primary" auto>
+              <Button bordered color="primary" auto>
                 <HiOutlineDocumentText /> &nbsp;Resume
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.linkedin} className={styles["navbar-link"]}>
-              <Button flat color="primary" auto>
+              <Button bordered color="primary" auto>
                 <FaLinkedin /> &nbsp;LinkedIn
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.twitter} className={styles["navbar-link"]}>
-              <Button flat color="primary" auto>
+              <Button bordered color="primary" auto>
                 <FaTwitter /> &nbsp;Twitter
               </Button>
             </a>
@@ -70,7 +70,7 @@ export default function Navbar() {
               href="https://blog.javisanchez.me/"
               className={styles["navbar-link"]}
             >
-              <Button flat color="primary" auto>
+              <Button bordered color="primary" auto>
                 Blog&nbsp; <HiOutlineArrowNarrowRight />
               </Button>
             </a>
