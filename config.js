@@ -6,7 +6,7 @@ import avatar from "./assets/avatar_high.jpg";
 export const avatarSrc = avatar.src;
 
 // Title
-export const title = "Hi, I'm Javi";
+export const title = "Hi, I'm Javi 👋";
 // Subtitle
 export const showSubtitle = true;
 export const subtitle = "Engineer, Developer and Creator";
@@ -39,6 +39,8 @@ deserunt proident in id deserunt reprehenderit.";
 
 // Books
 export const showBooks = true;
+export const essentialReadsText =
+  "These are my essential reads about life principles, how to build startups and so much more";
 
 import atomic from "./assets/books-covers/atomic-habits-cover.jpeg";
 import hooked from "./assets/books-covers/hooked-cover.jpg";
@@ -56,6 +58,11 @@ export const bookCovers = [
   { title: "Zero to One", src: zeroOne.src },
   { title: "Hooked", src: hooked.src },
 ];
+
+// Contact Me
+export const contactMe = true;
+export const contactMeText =
+  "I'm always open to chat, solve doubts and projects. Drop me a message 😄";
 
 // Footer
 export const showFooter = true;

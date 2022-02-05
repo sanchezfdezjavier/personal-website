@@ -4,9 +4,9 @@ import { Text } from "@nextui-org/react";
 
 export default function AboutMe() {
   return (
-    <div className={styles["about-me__container"]}>
+    <div className="section-container">
       <h2 className="h2-subtitle">About me</h2>
-      <p className={styles["about-me__text"]}>
+      <p className="section-text">
         Hi! My name is Javi. I have the brain of an engineer, the heart of a
         designer, and the dreams and passion of en entepreneur. I'm currently at
         Ubuntu/Canonical as a Software Engineer, working to build my full-stack

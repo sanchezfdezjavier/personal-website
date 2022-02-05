@@ -10,6 +10,7 @@ import BookShelf from "../components/BookShelf/BookShelf";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import Projects from "../components/Projects/Projects";
+import ContactMe from "../components/ContactMe/ContactMe";
 
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
@@ -28,6 +29,7 @@ export default function Home() {
     // TODO: Scroll disapear navbar brand and glass-line https://thewebdev.info/2021/09/25/how-to-detect-when-a-user-scrolls-to-bottom-of-div-with-react/#:~:text=div%20with%20React-,To%20detect%20when%20a%20user%20scrolls%20to%20bottom%20of%20div,property%20of%20the%20same%20element.&text=We%20call%20the%20useRef%20hook,inner%20div%2C%20which%20is%20scrollable.
     // TODO: Change blue bottoms to black
     // TODO: contact me section
+    // TODO: navbar flexbox -> grid
     <div className={styles["main-container"]}>
       <Navbar />
       {showAvatar && <Avatar />}
@@ -38,7 +40,7 @@ export default function Home() {
             href="https://blog.javisanchez.me"
             className={styles["main-button__alink"]}
           >
-            <Button color="primary" size="lg">
+            <Button shadow color="primary" size="lg">
               {mainButtonText}&nbsp;
               <HiOutlineArrowNarrowRight />
             </Button>
@@ -48,6 +50,7 @@ export default function Home() {
       {showAboutme && <AboutMe />}
       {showProjects && <Projects />}
       {showBooks && <EssentialReads />}
+      <ContactMe />
       <Footer />
     </div>
   );
