@@ -4,11 +4,12 @@ div.main-container {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
 }
 
 @media (max-width: 40rem) {
   div.main-container {
-    width: fit-content;
+    width: 100%;
     padding: 0 3rem;
   }
 }
