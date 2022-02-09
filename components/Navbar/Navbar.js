@@ -6,11 +6,10 @@ import { AiFillGithub } from "react-icons/ai";
 import {
   HiOutlineDocumentText,
   HiOutlineArrowNarrowRight,
-  HiOutlineMenuAlt4,
 } from "react-icons/hi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
-import { Button, Text } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 
 import { externalLinks } from "../../config";
 import { Fragment } from "react/cjs/react.production.min";

@@ -16,7 +16,6 @@ nav.navbar-container {
   justify-content: center;
   align-items: center;
   width: 100%;
-  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
@@ -34,6 +33,7 @@ h1.navbar-brand {
   margin-bottom: 0;
   white-space: nowrap;
   display: block;
+  margin: 12px 12px 12px 20px;
 }
 
 ul.navbar-links__list {

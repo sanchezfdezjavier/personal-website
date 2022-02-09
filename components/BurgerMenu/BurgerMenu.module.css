@@ -15,14 +15,24 @@ div.burger-menu__container {
 }
 
 div.burger-menu__button__container {
+  display: none;
   z-index: 3000;
   position: fixed;
   top: 0.5rem;
   right: 0.5rem;
 }
 
+.burger-menu__button_span_container > span {
+  display: inline-block;
+  width: 10rem;
+}
+
 @media (max-width: 40rem) {
   div.burger-menu__container {
+    display: flex;
+  }
+
+  div.burger-menu__button__container {
     display: flex;
   }
 }

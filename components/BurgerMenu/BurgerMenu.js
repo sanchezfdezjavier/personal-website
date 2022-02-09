@@ -21,8 +21,10 @@ export default function BurgerMenu() {
   return (
     <Fragment>
       <div className={styles["burger-menu__button__container"]}>
-        <Button flat color="primary" auto onClick={handleToggleBurger}>
-          <HiOutlineMenuAlt4 />
+        <Button light color="primary" auto onClick={handleToggleBurger}>
+          <div className={styles["buger-menu__button_span_container"]}>
+            <HiOutlineMenuAlt4 />
+          </div>
         </Button>
       </div>
       {burgerOpen && (
