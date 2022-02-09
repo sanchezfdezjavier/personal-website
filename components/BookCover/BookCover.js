@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import { useWindowDimensions } from "../../hooks/WindowsDimensions";
 
 import styles from "./BookCover.module.css";
 
@@ -7,6 +7,7 @@ import bookCoverOverlay from "../../assets/books-covers/book-overlay.png";
 import Image from "next/image";
 
 export default function BookCover(props) {
+  // const { height, width } = useWindowDimensions();
   return (
     <div className={styles["book__container"]}>
       <div className={styles["book-cover__container"]}>

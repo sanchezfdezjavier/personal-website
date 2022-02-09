@@ -1,0 +1,28 @@
+div.burger-menu__container {
+  background-color: rgba(240, 240, 240, 0.9);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  right: 0;
+  width: 80%;
+  padding: 2rem;
+  height: 100%;
+  backdrop-filter: saturate(180%) blur(0.5rem);
+}
+
+div.burger-menu__button__container {
+  z-index: 3000;
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+@media (max-width: 40rem) {
+  div.burger-menu__container {
+    display: flex;
+  }
+}

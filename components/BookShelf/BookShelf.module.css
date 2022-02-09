@@ -3,3 +3,9 @@ div.book-shelf__container {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
 }
+
+@media (max-width: 40rem) {
+  div.book-shelf__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
