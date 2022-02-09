@@ -11,9 +11,7 @@ export default function Avatar() {
         src={avatar.src}
         className={styles.avatar}
         alt="avatar"
-        layout="intrinsic"
-        width={200}
-        height={200}
+        layout="fill"
       />
     </div>
   );

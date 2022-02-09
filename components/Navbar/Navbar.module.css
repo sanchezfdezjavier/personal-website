@@ -1,8 +1,8 @@
 div.navbar-container__background {
-  width: 100vw;
+  width: 100%;
   position: fixed;
   height: 4rem;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid rgba(203, 203, 203, 0.358);
   top: 0;
   left: 0;
@@ -11,22 +11,11 @@ div.navbar-container__background {
 }
 
 nav.navbar-container {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  width: 100vw;
-  height: 3rem;
-  position: fixed;
-  z-index: 1001;
-  top: 0;
-  left: 0; */
-
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 2fr;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   align-items: center;
   position: fixed;
   top: 0;
@@ -61,4 +50,14 @@ a.navbar-link {
 
 li.navbar-link__list-item {
   margin: 0 0.4rem;
+}
+
+/* Burger menu */
+div.burger-menu__button__container {
+}
+
+@media (max-width: 40rem) {
+  ul.navbar-links__list {
+    display: none;
+  }
 }

@@ -1,18 +1,15 @@
 import styles from "../styles/Home.module.css";
-
-import { Button } from "@nextui-org/react";
-
+import { Fragment, useState } from "react";
 import Avatar from "../components/Avatar/Avatar";
+import MainButton from "../components/MainButton/MainButton";
 import Hero from "../components/Hero/Hero";
 import AboutMe from "../components/AboutMe/AboutMe";
 import EssentialReads from "../components/EssentialReads/EssentialReads";
-import BookShelf from "../components/BookShelf/BookShelf";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
+import BurgerMenu from "../components/BurgerMenu/BurgerMenu";
 import Projects from "../components/Projects/Projects";
 import ContactMe from "../components/ContactMe/ContactMe";
-
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 import {
   mainButtonText,
@@ -32,21 +29,10 @@ export default function Home() {
     // TODO: navbar hamburger mobile
     <div className={styles["main-container"]}>
       <Navbar />
+      {true && <BurgerMenu />}
       {showAvatar && <Avatar />}
       <Hero />
-      {showMainButton && (
-        <div className={styles["main-button__container"]}>
-          <a
-            href="https://blog.javisanchez.me"
-            className={styles["main-button__alink"]}
-          >
-            <Button shadow color="primary" size="lg">
-              {mainButtonText}&nbsp;
-              <HiOutlineArrowNarrowRight />
-            </Button>
-          </a>
-        </div>
-      )}
+      {showMainButton && <MainButton />}
       {showAboutme && <AboutMe />}
       {showProjects && <Projects />}
       {showBooks && <EssentialReads />}

@@ -9,6 +9,7 @@ export default function ContactMe() {
     <div className="section-container">
       <h2 className="h2-subtitle">Contact Me</h2>
       <p className="section-text">{contactMeText}</p>
+      <div className="copy-field"></div>
       <Button shadow color="primary" auto>
         Drop me a message
       </Button>

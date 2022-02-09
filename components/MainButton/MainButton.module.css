@@ -1,0 +1,14 @@
+div.main-button__container {
+  margin: 2rem;
+}
+
+a.main-button__alink {
+  text-decoration: none;
+}
+
+div.button-content__container {
+  width: 10rem;
+}
+
+@media (max-width: 40rem) {
+}

@@ -6,10 +6,9 @@ div.main-container {
   min-height: 100vh;
 }
 
-div.main-button__container {
-  margin: 2rem;
-}
-
-a.main-button__alink {
-  text-decoration: none;
+@media (max-width: 40rem) {
+  div.main-container {
+    width: fit-content;
+    padding: 0 3rem;
+  }
 }

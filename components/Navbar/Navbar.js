@@ -6,6 +6,7 @@ import { AiFillGithub } from "react-icons/ai";
 import {
   HiOutlineDocumentText,
   HiOutlineArrowNarrowRight,
+  HiOutlineMenuAlt4,
 } from "react-icons/hi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
@@ -39,28 +40,28 @@ export default function Navbar() {
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.github} className={styles["navbar-link"]}>
-              <Button bordered color="primary" auto>
+              <Button light color="primary" auto>
                 <AiFillGithub /> &nbsp;Github
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.resume} className={styles["navbar-link"]}>
-              <Button bordered color="primary" auto>
+              <Button light color="primary" auto>
                 <HiOutlineDocumentText /> &nbsp;Resume
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.linkedin} className={styles["navbar-link"]}>
-              <Button bordered color="primary" auto>
+              <Button light color="primary" auto>
                 <FaLinkedin /> &nbsp;LinkedIn
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.twitter} className={styles["navbar-link"]}>
-              <Button bordered color="primary" auto>
+              <Button light color="primary" auto>
                 <FaTwitter /> &nbsp;Twitter
               </Button>
             </a>
@@ -70,7 +71,7 @@ export default function Navbar() {
               href="https://blog.javisanchez.me/"
               className={styles["navbar-link"]}
             >
-              <Button bordered color="primary" auto>
+              <Button light color="primary" auto>
                 Blog&nbsp; <HiOutlineArrowNarrowRight />
               </Button>
             </a>

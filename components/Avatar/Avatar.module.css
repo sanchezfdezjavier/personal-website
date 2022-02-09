@@ -1,7 +1,19 @@
 div.avatar-container {
-  margin-top: 10rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+  margin-top: 8rem;
 }
 
 img.avatar {
   border-radius: 3rem;
+}
+
+@media (max-width: 40rem) {
+  img.avatar {
+    border-radius: 3rem;
+  }
 }
