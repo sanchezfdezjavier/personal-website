@@ -12,6 +12,12 @@ export default function Avatar() {
         className={styles.avatar}
         alt="avatar"
         layout="fill"
+        css={{
+          "@xs": { width: "10%" },
+          "@sm": { width: "10%" },
+          "@md": { width: "10%" },
+          "@lg": { width: "10%" },
+        }}
       />
     </div>
   );

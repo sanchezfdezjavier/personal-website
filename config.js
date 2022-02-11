@@ -63,6 +63,7 @@ export const bookCovers = [
 export const contactMe = true;
 export const contactMeText =
   "I'm always open to chat, solve doubts and projects. Drop me a message 😄";
+export const contactMeButtonText = "Drop me a message";
 
 // Footer
 export const showFooter = true;
