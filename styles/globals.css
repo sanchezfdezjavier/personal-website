@@ -20,7 +20,7 @@ body {
 }
 
 div.section-container {
-  width: 50rem;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,12 +44,15 @@ p.section-text {
 
 @media (max-width: 40rem) {
   .h2-subtitle {
-    font-size: 4rem;
+    font-size: 2rem;
+  }
+
+  div.section-container {
+    width: 95%;
+    margin-top: 10%;
   }
 
   p.section-text {
-    font-size: 1.525rem;
-    letter-spacing: 0.5px;
-    line-height: 38px;
+    font-size: 1rem;
   }
 }

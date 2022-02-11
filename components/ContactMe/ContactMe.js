@@ -2,7 +2,7 @@ import { Button } from "@nextui-org/react";
 
 import styles from "./ContactMe.module.css";
 
-import { contactMeText } from "../../config";
+import { contactMeText, contactMeButtonText } from "../../config";
 
 export default function ContactMe() {
   return (
@@ -11,7 +11,7 @@ export default function ContactMe() {
       <p className="section-text">{contactMeText}</p>
       <div className="copy-field"></div>
       <Button shadow color="primary" auto>
-        Drop me a message
+        {contactMeButtonText}
       </Button>
     </div>
   );

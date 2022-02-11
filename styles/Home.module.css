@@ -10,6 +10,6 @@ div.main-container {
 @media (max-width: 40rem) {
   div.main-container {
     width: 100%;
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
 }
