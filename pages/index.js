@@ -1,5 +1,5 @@
 import styles from "../styles/Home.module.css";
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import Avatar from "../components/Avatar/Avatar";
 import MainButton from "../components/MainButton/MainButton";
 import Hero from "../components/Hero/Hero";
@@ -26,6 +26,7 @@ export default function Home() {
     // TODO: Scroll disapear navbar brand and glass-line https://thewebdev.info/2021/09/25/how-to-detect-when-a-user-scrolls-to-bottom-of-div-with-react/#:~:text=div%20with%20React-,To%20detect%20when%20a%20user%20scrolls%20to%20bottom%20of%20div,property%20of%20the%20same%20element.&text=We%20call%20the%20useRef%20hook,inner%20div%2C%20which%20is%20scrollable.
     // TODO: functionallyti contact me section
     // TODO: Change blue bottoms to black
+    // TODO: My tools section
     <div className={styles["main-container"]}>
       <Navbar />
       {true && <BurgerMenu />}
