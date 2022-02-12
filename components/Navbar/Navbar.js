@@ -1,5 +1,7 @@
 import styles from "./Navbar.module.css";
 
+import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
+
 import { title } from "../../config";
 
 import { AiFillGithub } from "react-icons/ai";
@@ -8,8 +10,9 @@ import {
   HiOutlineArrowNarrowRight,
 } from "react-icons/hi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { CgSun, CgMoon } from "react-icons/cg";
 
-import { Button } from "@nextui-org/react";
+import { Button, Switch } from "@nextui-org/react";
 
 import { externalLinks } from "../../config";
 import { Fragment } from "react/cjs/react.production.min";
@@ -75,6 +78,13 @@ export default function Navbar() {
               </Button>
             </a>
           </li>
+          {/* <Switch
+            checked={true}
+            size="xl"
+            iconOn={<CgMoon />}
+            iconOff={<CgSun />}
+          /> */}
+          <ThemeSwitch />
         </ul>
       </nav>
     </Fragment>

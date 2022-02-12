@@ -1,8 +1,9 @@
 import "../styles/globals.css";
 
-import { NextUIProvider, createTheme, Theme } from "@nextui-org/react";
+import { NextUIProvider, createTheme } from "@nextui-org/react";
+import { ThemeProvider as NextThemesProvider } from "next-themes";
 
-const myTheme = createTheme({
+const lightTheme = createTheme({
   type: "light",
   theme: {
     colors: {
@@ -20,11 +21,25 @@ const myTheme = createTheme({
   },
 });
 
+const darkTheme = createTheme({
+  type: "dark",
+  theme: {},
+});
+
 function MyApp({ Component, pageProps }) {
   return (
-    <NextUIProvider>
-      <Component {...pageProps} />
-    </NextUIProvider>
+    <NextThemesProvider
+      defaultTheme="system"
+      attribute="class"
+      value={{
+        light: lightTheme.className,
+        dark: darkTheme.className,
+      }}
+    >
+      <NextUIProvider>
+        <Component {...pageProps} />
+      </NextUIProvider>
+    </NextThemesProvider>
   );
 }
 

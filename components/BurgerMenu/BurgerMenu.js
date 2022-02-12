@@ -6,6 +6,7 @@ import { Button } from "@nextui-org/react";
 import { externalLinks } from "../../config";
 
 import { AiFillGithub } from "react-icons/ai";
+import { CgMenu } from "react-icons/cg";
 import {
   HiOutlineDocumentText,
   HiOutlineArrowNarrowRight,
@@ -23,7 +24,8 @@ export default function BurgerMenu() {
       <div className={styles["burger-menu__button__container"]}>
         <Button light color="primary" auto onClick={handleToggleBurger}>
           <div className={styles["burger-menu__button_span_container"]}>
-            <HiOutlineMenuAlt4 />
+            {/* <HiOutlineMenuAlt4 /> */}
+            <CgMenu />
           </div>
         </Button>
       </div>
