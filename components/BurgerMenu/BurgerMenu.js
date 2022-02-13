@@ -1,8 +1,7 @@
 import styles from "./BurgerMenu.module.css";
 import { Fragment, useState } from "react";
 
-import { Button } from "@nextui-org/react";
-
+import { Button, useTheme } from "@nextui-org/react";
 import { externalLinks } from "../../config";
 
 import { AiFillGithub } from "react-icons/ai";
@@ -16,46 +15,58 @@ import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function BurgerMenu() {
   const [burgerOpen, setBurgerOpen] = useState(false);
+  const { isDark, type } = useTheme();
+
   const handleToggleBurger = () => {
     setBurgerOpen((prev) => !prev);
   };
   return (
     <Fragment>
       <div className={styles["burger-menu__button__container"]}>
-        <Button light color="primary" auto onClick={handleToggleBurger}>
+        <Button light color="default" auto onClick={handleToggleBurger}>
           <div className={styles["burger-menu__button_span_container"]}>
-            {/* <HiOutlineMenuAlt4 /> */}
             <CgMenu />
           </div>
         </Button>
       </div>
       {burgerOpen && (
-        <div className={styles["burger-menu__container"]}>
+        // className={
+        //   isDark
+        //     ? `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__dark"]}`
+        //     : `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__light"]}`
+        // }
+        <div
+          className={
+            isDark
+              ? `${styles["burger-menu__container"]} ${styles["burger-menu__background__color__dark"]}`
+              : `${styles["burger-menu__container"]} ${styles["burger-menu__background__color__light"]}`
+          }
+        >
           <ul className={styles["navbar-links__list"]}>
             <li className={styles["navbar-link__list-item"]}>
               <a href="" className={styles["navbar-link"]}>
-                <Button light color="primary" size="xl">
+                <Button light color="default" size="xl">
                   About Me
                 </Button>
               </a>
             </li>
             <li className={styles["navbar-link__list-item"]}>
               <a href="" className={styles["navbar-link"]}>
-                <Button light color="primary" size="xl">
+                <Button light color="default" size="xl">
                   Books
                 </Button>
               </a>
             </li>
             <li className={styles["navbar-link__list-item"]}>
               <a href={externalLinks.github} className={styles["navbar-link"]}>
-                <Button light color="primary" size="xl">
+                <Button light color="default" size="xl">
                   <AiFillGithub /> &nbsp;Github
                 </Button>
               </a>
             </li>
             <li className={styles["navbar-link__list-item"]}>
               <a href={externalLinks.resume} className={styles["navbar-link"]}>
-                <Button light color="primary" size="xl">
+                <Button light color="default" size="xl">
                   <HiOutlineDocumentText /> &nbsp;Resume
                 </Button>
               </a>
@@ -65,14 +76,14 @@ export default function BurgerMenu() {
                 href={externalLinks.linkedin}
                 className={styles["navbar-link"]}
               >
-                <Button light color="primary" size="xl">
+                <Button light color="default" size="xl">
                   <FaLinkedin /> &nbsp;LinkedIn
                 </Button>
               </a>
             </li>
             <li className={styles["navbar-link__list-item"]}>
               <a href={externalLinks.twitter} className={styles["navbar-link"]}>
-                <Button light color="primary" size="xl">
+                <Button light color="default" size="xl">
                   <FaTwitter /> &nbsp;Twitter
                 </Button>
               </a>
@@ -82,7 +93,7 @@ export default function BurgerMenu() {
                 href="https://blog.javisanchez.me/"
                 className={styles["navbar-link"]}
               >
-                <Button light color="primary" size="xl">
+                <Button light color="default" size="xl">
                   Blog&nbsp; <HiOutlineArrowNarrowRight />
                 </Button>
               </a>

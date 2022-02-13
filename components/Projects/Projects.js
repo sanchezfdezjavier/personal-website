@@ -4,7 +4,8 @@ import { projectsText } from "../../config";
 
 import { Text } from "@nextui-org/react";
 
-import placeholderImg from "../../assets/projects-covers/website-crocos-project.jpg";
+import crocos from "../../assets/projects-covers/website-crocos-project.jpg";
+import telecode from "../../assets/projects-covers/telecode.png";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import SectionTitle from "../SectionTitle/SectionTitle";
 
@@ -18,10 +19,10 @@ export default function Projects() {
         <Text>{projectsText}</Text>
       </div>
       <div className={styles["projects-grid"]}>
-        <ProjectCard image={placeholderImg.src} title="NFT Collection" />
-        <ProjectCard image={placeholderImg.src} title="NFT Collection" />
-        <ProjectCard image={placeholderImg.src} title="NFT Collection" />
-        <ProjectCard image={placeholderImg.src} title="NFT Collection" />
+        <ProjectCard image={crocos.src} title="NFT Collection" />
+        <ProjectCard image={telecode.src} title="Hackthon" />
+        <ProjectCard image={crocos.src} title="NFT Collection" />
+        <ProjectCard image={crocos.src} title="NFT Collection" />
       </div>
     </div>
   );

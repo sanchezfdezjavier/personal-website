@@ -21,9 +21,9 @@ export default function Navbar() {
     <Fragment>
       <div
         className={
-          !isDark
-            ? `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__light"]}`
-            : `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__dark"]}`
+          isDark
+            ? `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__dark"]}`
+            : `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__light"]}`
         }
       />
       <nav className={styles["navbar-container"]}>
@@ -33,42 +33,42 @@ export default function Navbar() {
         <ul className={styles["navbar-links__list"]}>
           <li className={styles["navbar-link__list-item"]}>
             <a href="" className={styles["navbar-link"]}>
-              <Button light color="primary" auto>
+              <Button light color="default" auto>
                 About Me
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href="" className={styles["navbar-link"]}>
-              <Button light color="primary" auto>
+              <Button light color="default" auto>
                 Books
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.github} className={styles["navbar-link"]}>
-              <Button light color="primary" auto>
+              <Button light color="default" auto>
                 <AiFillGithub /> &nbsp;Github
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.resume} className={styles["navbar-link"]}>
-              <Button light color="primary" auto>
+              <Button light color="default" auto>
                 <HiOutlineDocumentText /> &nbsp;Resume
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.linkedin} className={styles["navbar-link"]}>
-              <Button light color="primary" auto>
+              <Button light color="default" auto>
                 <FaLinkedin /> &nbsp;LinkedIn
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
             <a href={externalLinks.twitter} className={styles["navbar-link"]}>
-              <Button light color="primary" auto>
+              <Button light color="default" auto>
                 <FaTwitter /> &nbsp;Twitter
               </Button>
             </a>
@@ -78,12 +78,11 @@ export default function Navbar() {
               href="https://blog.javisanchez.me/"
               className={styles["navbar-link"]}
             >
-              <Button light color="primary" auto>
+              <Button light color="default" auto>
                 Blog&nbsp; <HiOutlineArrowNarrowRight />
               </Button>
             </a>
           </li>
-          <ThemeSwitch />
         </ul>
       </nav>
     </Fragment>
