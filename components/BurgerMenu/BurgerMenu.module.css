@@ -15,6 +15,14 @@ div.burger-menu__container {
   box-shadow: rgba(50, 50, 93, 0.25) -1rem 1rem 30px 10px;
 }
 
+div.burger-menu__background__color__light {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+div.burger-menu__background__color__dark {
+  background: rgba(34, 34, 34, 0.8);
+}
+
 div.burger-menu__button__container {
   display: none;
   z-index: 3000;

@@ -7,6 +7,12 @@ div.main-container {
   width: 100%;
 }
 
+div.theme-switch__container {
+  position: absolute;
+  top: 6rem;
+  right: 5%;
+}
+
 @media (max-width: 40rem) {
   div.main-container {
     width: 100%;

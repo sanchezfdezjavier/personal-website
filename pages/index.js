@@ -10,6 +10,7 @@ import Navbar from "../components/Navbar/Navbar";
 import BurgerMenu from "../components/BurgerMenu/BurgerMenu";
 import Projects from "../components/Projects/Projects";
 import ContactMe from "../components/ContactMe/ContactMe";
+import ThemeSwitch from "../components/ThemeSwitch/ThemeSwitch";
 
 import {
   mainButtonText,
@@ -19,6 +20,7 @@ import {
   showBooks,
   showAvatar,
 } from "../config";
+import { ThemeProvider } from "next-themes";
 
 export default function Home() {
   return (
@@ -29,6 +31,9 @@ export default function Home() {
     // TODO: My tools section
     <div className={styles["main-container"]}>
       <Navbar />
+      <div className={styles["theme-switch__container"]}>
+        <ThemeSwitch />
+      </div>
       {true && <BurgerMenu />}
       {showAvatar && <Avatar />}
       <Hero />
