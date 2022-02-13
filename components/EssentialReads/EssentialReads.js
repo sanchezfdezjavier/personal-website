@@ -8,11 +8,13 @@ import BookShelf from "../BookShelf/BookShelf";
 
 import { essentialReadsText } from "../../config";
 
+import SectionTitle from "../SectionTitle/SectionTitle";
+
 export default function EssentialReads() {
   return (
     <Fragment>
       <div className="section-container">
-        <h2 className="h2-subtitle">Essential Reads</h2>
+        <SectionTitle>Essential Reads</SectionTitle>
         <p className="section-text">{essentialReadsText}</p>
       </div>
       <BookShelf />

@@ -1,6 +1,7 @@
 import styles from "./Navbar.module.css";
 
 import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
+import { Button, useTheme } from "@nextui-org/react";
 
 import { title } from "../../config";
 
@@ -10,17 +11,21 @@ import {
   HiOutlineArrowNarrowRight,
 } from "react-icons/hi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
-import { CgSun, CgMoon } from "react-icons/cg";
-
-import { Button, Switch } from "@nextui-org/react";
 
 import { externalLinks } from "../../config";
 import { Fragment } from "react/cjs/react.production.min";
 
 export default function Navbar() {
+  const { isDark, type } = useTheme();
   return (
     <Fragment>
-      <div className={styles["navbar-container__background"]} />
+      <div
+        className={
+          !isDark
+            ? `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__light"]}`
+            : `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__dark"]}`
+        }
+      />
       <nav className={styles["navbar-container"]}>
         <div className={styles["navbar-brand__container"]}>
           <h1 className={styles["navbar-brand"]}>{title}</h1>
@@ -78,12 +83,6 @@ export default function Navbar() {
               </Button>
             </a>
           </li>
-          {/* <Switch
-            checked={true}
-            size="xl"
-            iconOn={<CgMoon />}
-            iconOff={<CgSun />}
-          /> */}
           <ThemeSwitch />
         </ul>
       </nav>

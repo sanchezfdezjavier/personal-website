@@ -28,7 +28,7 @@ div.section-container {
   margin-top: 6rem;
 }
 
-p.section-text {
+div.section-text__container {
   font-size: 1.125rem;
   color: rgb(75 85 99/1);
   text-align: justify;
