@@ -11,7 +11,7 @@ div.projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 15rem 15rem;
-  grid-gap: 1rem;
+  grid-gap: 4rem;
   grid-auto-flow: rows;
 }
 
@@ -20,7 +20,7 @@ div.projects-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 15rem 15rem 15rem 15rem;
-    grid-gap: 1rem;
+    grid-gap: 2.5rem;
     grid-auto-flow: rows;
   }
 }

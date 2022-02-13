@@ -12,7 +12,7 @@ export default function MainButton() {
         href="https://blog.javisanchez.me"
         className={styles["main-button__alink"]}
       >
-        <Button shadow color="primary" size="lg" ripple="true">
+        <Button shadow color="primary" size="xl" ripple="true">
           {/* <div className={styles["button-content__container"]}> */}
           {mainButtonText}&nbsp;
           {/* </div> */}
