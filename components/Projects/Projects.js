@@ -20,8 +20,6 @@ export default function Projects() {
       <div className={styles["projects-grid"]}>
         <ProjectCard image={crocos.src} title="NFT Collection" />
         <ProjectCard image={telecode.src} title="Hackthon" />
-        <ProjectCard image={crocos.src} title="NFT Collection" />
-        <ProjectCard image={crocos.src} title="NFT Collection" />
       </div>
     </div>
   );

@@ -32,15 +32,15 @@ export default function Navbar() {
 
   const navbarBrandStyle =
     y >= 400
-      ? `${styles["navbar-brand__container"]} ${styles["navbar-brand__display"]}`
-      : `${styles["navbar-brand__container"]}`;
+      ? `${styles["navbar-brand"]} ${styles["navbar-brand__display"]}`
+      : `${styles["navbar-brand"]}`;
 
   return (
     <Fragment>
       <div className={`${navbarThemeStyles} ${navbarShadowScrollStyle}`} />
       <nav className={styles["navbar-container"]}>
-        <div className={navbarBrandStyle}>
-          <h1 className={styles["navbar-brand"]}>{title}</h1>
+        <div className={styles["navbar-brand__container"]}>
+          <h1 className={navbarBrandStyle}>{title}</h1>
         </div>
         <ul className={styles["navbar-links__list"]}>
           <li className={styles["navbar-link__list-item"]}>

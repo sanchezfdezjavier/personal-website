@@ -7,11 +7,11 @@ export default function ProjectCard(props) {
   const cardFooterBackgroundColor = isDark ? bgBlurDark : bgBlurLight;
 
   return (
-    <Card cover shadow hoverable css={{ w: "100%", p: 0 }}>
+    <Card cover shadow hoverable css={{ w: "90%", p: 0 }}>
       <Card.Body>
         <Card.Image
           src={props.image}
-          height={400}
+          height={200}
           width="100%"
           alt="project preview image"
         />
