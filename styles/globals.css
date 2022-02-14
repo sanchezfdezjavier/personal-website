@@ -29,12 +29,7 @@ div.section-container {
 }
 
 div.section-text__container {
-  font-size: 1.125rem;
-  color: rgb(75 85 99/1);
-  text-align: justify;
-  line-height: 1.75rem;
-  font-family: "Inter var", -apple-system, "system-ui", "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 1rem 0;
 }
 
 .shadow {
@@ -52,7 +47,7 @@ div.section-text__container {
     margin-top: 10%;
   }
 
-  p.section-text {
+  .section-text {
     font-size: 1rem;
   }
 }
