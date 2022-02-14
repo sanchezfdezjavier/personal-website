@@ -3,8 +3,8 @@ div.main-container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: fit-content;
   min-height: 100vh;
-  width: 100%;
 }
 
 div.theme-switch__container {

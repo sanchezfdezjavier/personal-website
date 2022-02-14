@@ -5,6 +5,7 @@ import styles from "./ContactMe.module.css";
 import { contactMeText, contactMeButtonText } from "../../config";
 
 import SectionTitle from "../SectionTitle/SectionTitle";
+import SectionText from "../SectionText/SectionText";
 
 export default function ContactMe() {
   return (
@@ -16,8 +17,9 @@ export default function ContactMe() {
       >
         Contact Me
       </SectionTitle>
-      <p className="section-text">{contactMeText}</p>
-      <Text>{contactMeText}</Text>
+      <div className="section-text__container">
+        <SectionText>{contactMeText}</SectionText>
+      </div>
       <Button shadow color="primary" auto>
         {contactMeButtonText}
       </Button>

@@ -1,7 +1,10 @@
 import styles from "./Navbar.module.css";
 
-import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
-import { Button, useTheme } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
+
+import { useTheme } from "@nextui-org/react";
+
+import { useWindowScroll } from "react-use";
 
 import { title } from "../../config";
 
@@ -9,6 +12,7 @@ import { AiFillGithub } from "react-icons/ai";
 import {
   HiOutlineDocumentText,
   HiOutlineArrowNarrowRight,
+  HiOutlineExternalLink,
 } from "react-icons/hi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
@@ -17,17 +21,25 @@ import { Fragment } from "react/cjs/react.production.min";
 
 export default function Navbar() {
   const { isDark, type } = useTheme();
+  const { _, y } = useWindowScroll();
+
+  const navbarThemeStyles = isDark
+    ? `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__dark"]}`
+    : `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__light"]}`;
+
+  const navbarShadowScrollStyle =
+    y !== 0 ? `${styles["navbar-container__shadow"]}` : "";
+
+  const navbarBrandStyle =
+    y >= 400
+      ? `${styles["navbar-brand__container"]} ${styles["navbar-brand__display"]}`
+      : `${styles["navbar-brand__container"]}`;
+
   return (
     <Fragment>
-      <div
-        className={
-          isDark
-            ? `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__dark"]}`
-            : `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__light"]}`
-        }
-      />
+      <div className={`${navbarThemeStyles} ${navbarShadowScrollStyle}`} />
       <nav className={styles["navbar-container"]}>
-        <div className={styles["navbar-brand__container"]}>
+        <div className={navbarBrandStyle}>
           <h1 className={styles["navbar-brand"]}>{title}</h1>
         </div>
         <ul className={styles["navbar-links__list"]}>
@@ -79,7 +91,7 @@ export default function Navbar() {
               className={styles["navbar-link"]}
             >
               <Button light color="default" auto>
-                Blog&nbsp; <HiOutlineArrowNarrowRight />
+                Blog&nbsp; <HiOutlineExternalLink />
               </Button>
             </a>
           </li>

@@ -4,7 +4,6 @@ import { Fragment } from "react/cjs/react.production.min";
 
 import { useTheme } from "@nextui-org/react";
 
-import { CgSun, CgMoon } from "react-icons/cg";
 import { BsSun, BsFillMoonFill } from "react-icons/bs";
 
 export default function Navbar() {

@@ -1,5 +1,5 @@
 import { Button } from "@nextui-org/react";
-import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { HiOutlineExternalLink } from "react-icons/hi";
 
 import { mainButtonText } from "../../config";
 
@@ -16,7 +16,7 @@ export default function MainButton() {
           {/* <div className={styles["button-content__container"]}> */}
           {mainButtonText}&nbsp;
           {/* </div> */}
-          <HiOutlineArrowNarrowRight />
+          <HiOutlineExternalLink />
         </Button>
       </a>
     </div>
