@@ -31,9 +31,8 @@ export default function Home() {
   const { x, y } = useWindowScroll();
   return (
     // TODO: Optimize images
-    // TODO: Scroll disapear navbar brand and glass-line https://thewebdev.info/2021/09/25/how-to-detect-when-a-user-scrolls-to-bottom-of-div-with-react/#:~:text=div%20with%20React-,To%20detect%20when%20a%20user%20scrolls%20to%20bottom%20of%20div,property%20of%20the%20same%20element.&text=We%20call%20the%20useRef%20hook,inner%20div%2C%20which%20is%20scrollable.
-    // TODO: functionallyti contact me section
     // TODO: My tools section
+    // TODO: Change text highlight color
     <Fragment>
       <Head>
         <title>{title}</title>
