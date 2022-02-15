@@ -63,7 +63,8 @@ export const bookCovers = [
 export const contactMe = true;
 export const contactMeText =
   "I'm always open to chat, helping out and open to new projects. Drop me a message 😄";
-export const contactMeButtonText = "Drop me a message";
+export const contactMeButtonText = "Send me an email";
+export const contactEmail = "sanchezfdez.javier@gmail.com";
 
 // Footer
 export const showFooter = true;

@@ -1,8 +1,10 @@
-import { Button, Text } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 
 import styles from "./ContactMe.module.css";
 
-import { contactMeText, contactMeButtonText } from "../../config";
+import { contactMeText, contactMeButtonText, contactEmail } from "../../config";
+
+import { FaPaperPlane } from "react-icons/fa";
 
 import SectionTitle from "../SectionTitle/SectionTitle";
 import SectionText from "../SectionText/SectionText";
@@ -20,9 +22,11 @@ export default function ContactMe() {
       <div className="section-text__container">
         <SectionText>{contactMeText}</SectionText>
       </div>
-      <Button shadow color="primary" auto>
-        {contactMeButtonText}
-      </Button>
+      <a href={`mailto:${contactEmail}`}>
+        <Button shadow color="primary" auto>
+          {contactMeButtonText}&nbsp; <FaPaperPlane />
+        </Button>
+      </a>
     </div>
   );
 }

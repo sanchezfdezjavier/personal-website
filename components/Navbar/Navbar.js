@@ -9,12 +9,8 @@ import { useWindowScroll } from "react-use";
 import { title } from "../../config";
 
 import { AiFillGithub } from "react-icons/ai";
-import {
-  HiOutlineDocumentText,
-  HiOutlineArrowNarrowRight,
-  HiOutlineExternalLink,
-} from "react-icons/hi";
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { HiOutlineDocumentText, HiOutlineExternalLink } from "react-icons/hi";
+import { FaLinkedin, FaTwitter, FaPaperPlane } from "react-icons/fa";
 
 import { externalLinks } from "../../config";
 import { Fragment } from "react/cjs/react.production.min";
@@ -44,14 +40,14 @@ export default function Navbar() {
         </div>
         <ul className={styles["navbar-links__list"]}>
           <li className={styles["navbar-link__list-item"]}>
-            <a href="" className={styles["navbar-link"]}>
+            <a href="#" className={styles["navbar-link"]}>
               <Button light color="default" auto>
                 About Me
               </Button>
             </a>
           </li>
           <li className={styles["navbar-link__list-item"]}>
-            <a href="" className={styles["navbar-link"]}>
+            <a href="#" className={styles["navbar-link"]}>
               <Button light color="default" auto>
                 Books
               </Button>
