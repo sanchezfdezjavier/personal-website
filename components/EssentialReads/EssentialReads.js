@@ -14,7 +14,7 @@ import SectionText from "../SectionText/SectionText";
 export default function EssentialReads() {
   return (
     <Fragment>
-      <div className="section-container">
+      <div className="section-container" id="book-shelf">
         <SectionTitle>Essential Reads</SectionTitle>
         <div className="section-text__container">
           <SectionText>{essentialReadsText}</SectionText>
