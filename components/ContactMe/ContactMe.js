@@ -12,13 +12,7 @@ import SectionText from "../SectionText/SectionText";
 export default function ContactMe() {
   return (
     <div className="section-container">
-      <SectionTitle
-        textColor={{
-          textGradient: "45deg, $purple500 -20%, $pink500 100%",
-        }}
-      >
-        Contact Me
-      </SectionTitle>
+      <SectionTitle>Contact Me</SectionTitle>
       <div className="section-text__container">
         <SectionText>{contactMeText}</SectionText>
       </div>

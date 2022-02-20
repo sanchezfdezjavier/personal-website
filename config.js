@@ -32,16 +32,13 @@ export const externalLinks = {
 
 // Projects text
 export const showProjects = true;
-export const showProjectsText = true;
-export const projectsText =
-  "Et sunt qui labore enim eu enim laboris minim dolor. Occaecat enim nisi \
-incididunt cupidatat. Deserunt et laboris Lorem enim occaecat sint velit \
-deserunt proident in id deserunt reprehenderit.";
+export const showProjectsText = false;
+export const projectsText = "";
 
 // Books
 export const showBooks = true;
 export const essentialReadsText =
-  "These are my essential reads about life principles, how to build startups and so much more";
+  "Books that shaped the way I think and work every day.";
 
 import atomic from "./assets/books-covers/atomic-habits-cover.jpeg";
 import hooked from "./assets/books-covers/hooked-cover.jpg";
