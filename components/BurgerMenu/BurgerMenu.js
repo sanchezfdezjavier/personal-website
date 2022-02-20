@@ -13,6 +13,8 @@ import {
 } from "react-icons/hi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
+import { showAboutme, showBooks } from "../../config";
+
 export default function BurgerMenu() {
   const [burgerOpen, setBurgerOpen] = useState(false);
   const { isDark, type } = useTheme();
@@ -30,11 +32,6 @@ export default function BurgerMenu() {
         </Button>
       </div>
       {burgerOpen && (
-        // className={
-        //   isDark
-        //     ? `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__dark"]}`
-        //     : `${styles["navbar-container__background"]} ${styles["navbar-container__background__color__light"]}`
-        // }
         <div
           className={
             isDark
@@ -43,20 +40,24 @@ export default function BurgerMenu() {
           }
         >
           <ul className={styles["navbar-links__list"]}>
-            <li className={styles["navbar-link__list-item"]}>
-              <a href="" className={styles["navbar-link"]}>
-                <Button light color="default" size="xl">
-                  About Me
-                </Button>
-              </a>
-            </li>
-            <li className={styles["navbar-link__list-item"]}>
-              <a href="" className={styles["navbar-link"]}>
-                <Button light color="default" size="xl">
-                  Books
-                </Button>
-              </a>
-            </li>
+            {showAboutme && (
+              <li className={styles["navbar-link__list-item"]}>
+                <a href="#about-me-section" className={styles["navbar-link"]}>
+                  <Button light color="default" size="xl">
+                    About Me
+                  </Button>
+                </a>
+              </li>
+            )}
+            {showBooks && (
+              <li className={styles["navbar-link__list-item"]}>
+                <a href="#book-shelf" className={styles["navbar-link"]}>
+                  <Button light color="default" size="xl">
+                    Books
+                  </Button>
+                </a>
+              </li>
+            )}
             <li className={styles["navbar-link__list-item"]}>
               <a href={externalLinks.github} className={styles["navbar-link"]}>
                 <Button light color="default" size="xl">

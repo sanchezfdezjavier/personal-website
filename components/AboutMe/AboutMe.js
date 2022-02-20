@@ -7,7 +7,7 @@ import SectionText from "../SectionText/SectionText";
 
 export default function AboutMe() {
   return (
-    <div className="section-container">
+    <div className="section-container" id="about-me-section">
       <SectionTitle>About Me </SectionTitle>
       <div className="section-text__container">
         <SectionText>

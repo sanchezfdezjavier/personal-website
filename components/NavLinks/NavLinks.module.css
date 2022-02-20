@@ -1,0 +1,25 @@
+ul.navbar-links__list {
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  list-style-type: none;
+}
+
+a.navbar-link {
+  text-decoration: none !important;
+}
+
+li.navbar-link__list-item {
+  margin: 0 0.4rem;
+}
+
+/* Burger menu */
+div.burger-menu__button__container {
+}
+
+@media (max-width: 40rem) {
+  ul.navbar-links__list {
+    display: none;
+  }
+}

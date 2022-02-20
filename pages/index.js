@@ -30,9 +30,9 @@ import { Fragment } from "react/cjs/react.production.min";
 export default function Home() {
   const { x, y } = useWindowScroll();
   return (
+    // TODO: SEO best practices
     // TODO: Optimize images
     // TODO: My tools section
-    // TODO: Change text highlight color
     <Fragment>
       <Head>
         <title>{title}</title>
