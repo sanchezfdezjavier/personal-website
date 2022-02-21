@@ -34,21 +34,23 @@ export default function ProjectCard(props) {
           </Col>
           <Col>
             <Row justify="flex-end">
-              <Button
-                flat
-                auto
-                rounded
-                css={{ color: "#ffffff", bg: "#94f9f026" }}
-              >
-                <Text
-                  css={{ color: "inherit" }}
-                  size={12}
-                  weight="bold"
-                  transform="uppercase"
+              <a href={props.projectLink}>
+                <Button
+                  flat
+                  auto
+                  rounded
+                  css={{ color: "#ffffff", bg: "#94f9f026" }}
                 >
-                  Check it out
-                </Text>
-              </Button>
+                  <Text
+                    css={{ color: "inherit" }}
+                    size={12}
+                    weight="bold"
+                    transform="uppercase"
+                  >
+                    Check it out
+                  </Text>
+                </Button>
+              </a>
             </Row>
           </Col>
         </Row>

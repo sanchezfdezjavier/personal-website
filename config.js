@@ -35,6 +35,22 @@ export const showProjects = true;
 export const showProjectsText = false;
 export const projectsText = "";
 
+import crocos from "./assets/projects-covers/website-crocos-project.jpg";
+import telecode from "./assets/projects-covers/telecode.png";
+
+export const projects = [
+  {
+    title: "NFT Collection",
+    image: crocos,
+    link: "https://thecrocoslocos.com/",
+  },
+  {
+    title: "Hackathon",
+    image: telecode,
+    link: "https://telecode.etsit.upm.es/university/#/",
+  },
+];
+
 // Books
 export const showBooks = true;
 export const essentialReadsText =
