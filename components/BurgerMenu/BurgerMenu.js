@@ -1,19 +1,15 @@
-import styles from "./BurgerMenu.module.css";
-import { Fragment, useState } from "react";
-
 import { Button, useTheme } from "@nextui-org/react";
-import { externalLinks } from "../../config";
-
+import { useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { CgMenu } from "react-icons/cg";
-import {
-  HiOutlineDocumentText,
-  HiOutlineArrowNarrowRight,
-  HiOutlineMenuAlt4,
-} from "react-icons/hi";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
-
-import { showAboutme, showBooks } from "../../config";
+import {
+  HiOutlineArrowNarrowRight,
+  HiOutlineDocumentText,
+} from "react-icons/hi";
+import { externalLinks, showAboutme, showBooks } from "../../config";
+import OutsideAlerter from "../OutsideAlerter/OutsideAlerter";
+import styles from "./BurgerMenu.module.css";
 
 export default function BurgerMenu() {
   const [burgerOpen, setBurgerOpen] = useState(false);
@@ -22,8 +18,9 @@ export default function BurgerMenu() {
   const handleToggleBurger = () => {
     setBurgerOpen((prev) => !prev);
   };
+
   return (
-    <Fragment>
+    <OutsideAlerter onClickOutside={() => setBurgerOpen(false)}>
       <div className={styles["burger-menu__button__container"]}>
         <Button light color="default" auto onClick={handleToggleBurger}>
           <div className={styles["burger-menu__button_span_container"]}>
@@ -102,6 +99,6 @@ export default function BurgerMenu() {
           </ul>
         </div>
       )}
-    </Fragment>
+    </OutsideAlerter>
   );
 }
