@@ -87,10 +87,7 @@ export default function BurgerMenu() {
               </a>
             </li>
             <li className={styles["navbar-link__list-item"]}>
-              <a
-                href="https://blog.javisanchez.me/"
-                className={styles["navbar-link"]}
-              >
+              <a href={externalLinks.blog} className={styles["navbar-link"]}>
                 <Button light color="default" size="xl">
                   Blog&nbsp; <HiOutlineArrowNarrowRight />
                 </Button>
