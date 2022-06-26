@@ -36,7 +36,7 @@ export default function ProjectCard(props) {
             <Row justify="flex-end">
               <a href={props.projectLink} target="_blank">
                 <Button
-                  fla
+                  flat
                   auto
                   rounded
                   css={{ color: "#ffffff", bg: "#94f9f026" }}
