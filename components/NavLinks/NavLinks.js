@@ -26,7 +26,12 @@ export default function NavLinks() {
         )}
         {showBooks && (
           <li className={styles["navbar-link__list-item"]}>
-            <a href="#book-shelf" className={styles["navbar-link"]}>
+            <a
+              href="#book-shelf"
+              target="_blank"
+              rel="noreferrer"
+              className={styles["navbar-link"]}
+            >
               <Button light color="default" auto>
                 Books
               </Button>
@@ -41,28 +46,48 @@ export default function NavLinks() {
           </a>
         </li>
         <li className={styles["navbar-link__list-item"]}>
-          <a href={externalLinks.resume} className={styles["navbar-link"]}>
+          <a
+            href={externalLinks.resume}
+            target="_blank"
+            rel="noreferrer"
+            className={styles["navbar-link"]}
+          >
             <Button light color="default" auto>
               <HiOutlineDocumentText /> &nbsp;Resume
             </Button>
           </a>
         </li>
         <li className={styles["navbar-link__list-item"]}>
-          <a href={externalLinks.linkedin} className={styles["navbar-link"]}>
+          <a
+            href={externalLinks.linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className={styles["navbar-link"]}
+          >
             <Button light color="default" auto>
               <FaLinkedin /> &nbsp;LinkedIn
             </Button>
           </a>
         </li>
         <li className={styles["navbar-link__list-item"]}>
-          <a href={externalLinks.twitter} className={styles["navbar-link"]}>
+          <a
+            href={externalLinks.twitter}
+            target="_blank"
+            rel="noreferrer"
+            className={styles["navbar-link"]}
+          >
             <Button light color="default" auto>
               <FaTwitter /> &nbsp;Twitter
             </Button>
           </a>
         </li>
         <li className={styles["navbar-link__list-item"]}>
-          <a href={externalLinks.blog} className={styles["navbar-link"]}>
+          <a
+            href={externalLinks.blog}
+            target="_blank"
+            rel="noreferrer"
+            className={styles["navbar-link"]}
+          >
             <Button light color="default" auto>
               Blog&nbsp; <HiOutlineExternalLink />
             </Button>
