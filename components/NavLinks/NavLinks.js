@@ -17,11 +17,7 @@ export default function NavLinks() {
       <ul className={styles["navbar-links__list"]}>
         {showAboutme && (
           <li className={styles["navbar-link__list-item"]}>
-            <a
-              href="#about-me-section"
-              target="_blank"
-              className={styles["navbar-link"]}
-            >
+            <a href="#about-me-section" className={styles["navbar-link"]}>
               <Button light color="default" auto>
                 About Me
               </Button>
@@ -33,6 +29,7 @@ export default function NavLinks() {
             <a
               href="#book-shelf"
               target="_blank"
+              rel="noreferrer"
               className={styles["navbar-link"]}
             >
               <Button light color="default" auto>
@@ -45,6 +42,7 @@ export default function NavLinks() {
           <a
             href={externalLinks.github}
             target="_blank"
+            rel="noreferrer"
             className={styles["navbar-link"]}
           >
             <Button light color="default" auto>
@@ -56,6 +54,7 @@ export default function NavLinks() {
           <a
             href={externalLinks.resume}
             target="_blank"
+            rel="noreferrer"
             className={styles["navbar-link"]}
           >
             <Button light color="default" auto>
@@ -67,6 +66,7 @@ export default function NavLinks() {
           <a
             href={externalLinks.linkedin}
             target="_blank"
+            rel="noreferrer"
             className={styles["navbar-link"]}
           >
             <Button light color="default" auto>
@@ -78,6 +78,7 @@ export default function NavLinks() {
           <a
             href={externalLinks.twitter}
             target="_blank"
+            rel="noreferrer"
             className={styles["navbar-link"]}
           >
             <Button light color="default" auto>
@@ -89,6 +90,7 @@ export default function NavLinks() {
           <a
             href={externalLinks.blog}
             target="_blank"
+            rel="noreferrer"
             className={styles["navbar-link"]}
           >
             <Button light color="default" auto>

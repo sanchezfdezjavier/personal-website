@@ -11,6 +11,7 @@ export default function MainButton() {
       <a
         href={externalLinks.blog}
         target="_blank"
+        rel="noreferrer"
         className={styles["main-button__alink"]}
       >
         <Button shadow color="primary" size="xl" ripple="true">

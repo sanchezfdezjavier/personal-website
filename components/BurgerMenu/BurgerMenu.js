@@ -51,6 +51,7 @@ export default function BurgerMenu() {
                 <a
                   href="#book-shelf"
                   target="_blank"
+                  rel="noreferrer"
                   className={styles["navbar-link"]}
                 >
                   <Button light color="default" size="xl">
@@ -63,6 +64,7 @@ export default function BurgerMenu() {
               <a
                 href={externalLinks.github}
                 target="_blank"
+                rel="noreferrer"
                 className={styles["navbar-link"]}
               >
                 <Button light color="default" size="xl">
@@ -74,6 +76,7 @@ export default function BurgerMenu() {
               <a
                 href={externalLinks.resume}
                 target="_blank"
+                rel="noreferrer"
                 className={styles["navbar-link"]}
               >
                 <Button light color="default" size="xl">
@@ -85,6 +88,7 @@ export default function BurgerMenu() {
               <a
                 href={externalLinks.linkedin}
                 target="_blank"
+                rel="noreferrer"
                 className={styles["navbar-link"]}
               >
                 <Button light color="default" size="xl">
@@ -96,6 +100,7 @@ export default function BurgerMenu() {
               <a
                 href={externalLinks.twitter}
                 target="_blank"
+                rel="noreferrer"
                 className={styles["navbar-link"]}
               >
                 <Button light color="default" size="xl">
@@ -107,6 +112,7 @@ export default function BurgerMenu() {
               <a
                 href={externalLinks.blog}
                 target="_blank"
+                rel="noreferrer"
                 className={styles["navbar-link"]}
               >
                 <Button light color="default" size="xl">
