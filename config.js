@@ -36,7 +36,7 @@ export const showProjectsText = false;
 export const projectsText = "";
 
 import crocos from "./assets/projects-covers/website-crocos-project.jpg";
-import telecode from "./assets/projects-covers/telecode.png";
+import telecode from "./assets/projects-covers/telecode.jpg";
 
 export const projects = [
   {
@@ -56,11 +56,11 @@ export const showBooks = true;
 export const essentialReadsText =
   "Books that shaped the way I think and work every day.";
 
-import atomic from "./assets/books-covers/atomic-habits-cover.jpeg";
+import atomic from "./assets/books-covers/atomic-habits-cover.jpg";
 import hooked from "./assets/books-covers/hooked-cover.jpg";
-import principles from "./assets/books-covers/principles-cover.jpeg";
-import leanStartup from "./assets/books-covers/the-lean-startup-cover.jpeg";
-import zeroOne from "./assets/books-covers/zero-to-one-cover.jpeg";
+import principles from "./assets/books-covers/principles-cover.jpg";
+import leanStartup from "./assets/books-covers/the-lean-startup-cover.jpg";
+import zeroOne from "./assets/books-covers/zero-to-one-cover.jpg";
 
 export const bookCovers = [
   { title: "The Lean Startup", src: leanStartup.src },
