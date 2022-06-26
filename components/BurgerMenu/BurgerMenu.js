@@ -39,11 +39,7 @@ export default function BurgerMenu() {
           <ul className={styles["navbar-links__list"]}>
             {showAboutme && (
               <li className={styles["navbar-link__list-item"]}>
-                <a
-                  href="#about-me-section"
-                  target="_blank"
-                  className={styles["navbar-link"]}
-                >
+                <a href="#about-me-section" className={styles["navbar-link"]}>
                   <Button light color="default" size="xl">
                     About Me
                   </Button>
