@@ -1,4 +1,4 @@
-import avatar from "../../assets/avatar_high.jpg";
+import { avatarSrc } from "../../config";
 
 import styles from "./Avatar.module.css";
 
@@ -8,7 +8,7 @@ export default function Avatar() {
   return (
     <div className={styles["avatar-container"]}>
       <Image
-        src={avatar.src}
+        src={avatarSrc}
         className={styles.avatar}
         alt="avatar"
         layout="fill"
