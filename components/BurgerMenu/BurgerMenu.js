@@ -39,7 +39,11 @@ export default function BurgerMenu() {
           <ul className={styles["navbar-links__list"]}>
             {showAboutme && (
               <li className={styles["navbar-link__list-item"]}>
-                <a href="#about-me-section" className={styles["navbar-link"]}>
+                <a
+                  href="#about-me-section"
+                  target="_blank"
+                  className={styles["navbar-link"]}
+                >
                   <Button light color="default" size="xl">
                     About Me
                   </Button>
@@ -48,7 +52,11 @@ export default function BurgerMenu() {
             )}
             {showBooks && (
               <li className={styles["navbar-link__list-item"]}>
-                <a href="#book-shelf" className={styles["navbar-link"]}>
+                <a
+                  href="#book-shelf"
+                  target="_blank"
+                  className={styles["navbar-link"]}
+                >
                   <Button light color="default" size="xl">
                     Books
                   </Button>
@@ -56,14 +64,22 @@ export default function BurgerMenu() {
               </li>
             )}
             <li className={styles["navbar-link__list-item"]}>
-              <a href={externalLinks.github} className={styles["navbar-link"]}>
+              <a
+                href={externalLinks.github}
+                target="_blank"
+                className={styles["navbar-link"]}
+              >
                 <Button light color="default" size="xl">
                   <AiFillGithub /> &nbsp;Github
                 </Button>
               </a>
             </li>
             <li className={styles["navbar-link__list-item"]}>
-              <a href={externalLinks.resume} className={styles["navbar-link"]}>
+              <a
+                href={externalLinks.resume}
+                target="_blank"
+                className={styles["navbar-link"]}
+              >
                 <Button light color="default" size="xl">
                   <HiOutlineDocumentText /> &nbsp;Resume
                 </Button>
@@ -72,6 +88,7 @@ export default function BurgerMenu() {
             <li className={styles["navbar-link__list-item"]}>
               <a
                 href={externalLinks.linkedin}
+                target="_blank"
                 className={styles["navbar-link"]}
               >
                 <Button light color="default" size="xl">
@@ -80,14 +97,22 @@ export default function BurgerMenu() {
               </a>
             </li>
             <li className={styles["navbar-link__list-item"]}>
-              <a href={externalLinks.twitter} className={styles["navbar-link"]}>
+              <a
+                href={externalLinks.twitter}
+                target="_blank"
+                className={styles["navbar-link"]}
+              >
                 <Button light color="default" size="xl">
                   <FaTwitter /> &nbsp;Twitter
                 </Button>
               </a>
             </li>
             <li className={styles["navbar-link__list-item"]}>
-              <a href={externalLinks.blog} className={styles["navbar-link"]}>
+              <a
+                href={externalLinks.blog}
+                target="_blank"
+                className={styles["navbar-link"]}
+              >
                 <Button light color="default" size="xl">
                   Blog&nbsp; <HiOutlineArrowNarrowRight />
                 </Button>

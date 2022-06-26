@@ -34,7 +34,7 @@ export default function ProjectCard(props) {
           </Col>
           <Col>
             <Row justify="flex-end">
-              <a href={props.projectLink}>
+              <a href={props.projectLink} target="_blank">
                 <Button
                   flat
                   auto

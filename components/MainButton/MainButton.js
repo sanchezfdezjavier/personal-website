@@ -8,7 +8,11 @@ import styles from "./MainButton.module.css";
 export default function MainButton() {
   return (
     <div className={styles["main-button__container"]}>
-      <a href={externalLinks.blog} className={styles["main-button__alink"]}>
+      <a
+        href={externalLinks.blog}
+        target="_blank"
+        className={styles["main-button__alink"]}
+      >
         <Button shadow color="primary" size="xl" ripple="true">
           {/* <div className={styles["button-content__container"]}> */}
           {mainButtonText}&nbsp;
