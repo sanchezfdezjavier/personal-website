@@ -48,12 +48,7 @@ export default function BurgerMenu() {
             )}
             {showBooks && (
               <li className={styles["navbar-link__list-item"]}>
-                <a
-                  href="#book-shelf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className={styles["navbar-link"]}
-                >
+                <a href="#book-shelf" className={styles["navbar-link"]}>
                   <Button light color="default" size="xl">
                     Books
                   </Button>

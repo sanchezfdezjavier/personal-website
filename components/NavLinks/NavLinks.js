@@ -39,12 +39,7 @@ export default function NavLinks() {
           </li>
         )}
         <li className={styles["navbar-link__list-item"]}>
-          <a
-            href={externalLinks.github}
-            target="_blank"
-            rel="noreferrer"
-            className={styles["navbar-link"]}
-          >
+          <a href={externalLinks.github} className={styles["navbar-link"]}>
             <Button light color="default" auto>
               <AiFillGithub /> &nbsp;Github
             </Button>
