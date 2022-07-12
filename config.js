@@ -61,6 +61,7 @@ import hooked from "./assets/books-covers/hooked-cover.jpg";
 import principles from "./assets/books-covers/principles-cover.jpg";
 import leanStartup from "./assets/books-covers/the-lean-startup-cover.jpg";
 import zeroOne from "./assets/books-covers/zero-to-one-cover.jpg";
+import friendsAndPeople from "./assets/books-covers/htwfandip.jpg";
 
 export const bookCovers = [
   { title: "The Lean Startup", src: leanStartup.src },
@@ -71,6 +72,10 @@ export const bookCovers = [
   { title: "Principles", src: principles.src },
   { title: "Zero to One", src: zeroOne.src },
   { title: "Hooked", src: hooked.src },
+  {
+    title: "How to Win Friends and Influence People",
+    src: friendsAndPeople.src,
+  },
 ];
 
 // Contact Me
