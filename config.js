@@ -1,25 +1,32 @@
-// THIS IS THE FILE YOU ARE ONLY SUPPOSE TO EDIT
+/* -------------------------------------------------------------------------- */
+/*                 THIS IS THE ONLY FILE YOU ARE SUPPOSED TO EDIT             */
+/* -------------------------------------------------------------------------- */
 
-// Avatar
+/* ------------------------------ AVATAR ------------------------------ */
 export const showAvatar = true;
 import avatar from "./assets/avatar_high.jpg";
 export const avatarSrc = avatar.src;
+/* -------------------------------------------------------------------- */
 
-// Title
+/* ------------------------------ TITLE ------------------------------------- */
 export const title = "Hi, I'm Javi";
+/* -------------------------------------------------------------------------- */
 
-// Subtitle
+/* ------------------------------ SUBTITLE ---------------------------------- */
 export const showSubtitle = true;
 export const subtitle = "Engineer, Developer and Creator";
+/* -------------------------------------------------------------------------- */
 
-// Main button
+/* ------------------------------ MAIN BUTTON ------------------------------- */
 export const showMainButton = true;
 export const mainButtonText = "My Blog";
+/* -------------------------------------------------------------------------- */
 
-// About me
+/* ------------------------------ ABOUT ME ---------------------------------- */
 export const showAboutme = true;
+/* -------------------------------------------------------------------------- */
 
-// Navbar links
+/* ------------------------------ NAVBAR LINKS ------------------------------ */
 export const showNavbarLinks = true;
 export const externalLinks = {
   github: "https://github.com/sanchezfdezjavier",
@@ -29,8 +36,9 @@ export const externalLinks = {
   blog: "https://blog.javisf.com/",
   twitter: "https://twitter.com/javisnchztech",
 };
+/* -------------------------------------------------------------------------- */
 
-// Projects text
+/* ------------------------------ PROJECTS ---------------------------------- */
 export const showProjects = true;
 export const showProjectsText = false;
 export const projectsText = "";
@@ -50,8 +58,9 @@ export const projects = [
     link: "https://telecode.etsit.upm.es/university/#/",
   },
 ];
+/* -------------------------------------------------------------------------- */
 
-// Books
+/* ------------------------------ BOOKS ---------------------------------- */
 export const showBooks = true;
 export const essentialReadsText =
   "Books that shaped the way I think and work every day.";
@@ -77,15 +86,18 @@ export const bookCovers = [
     src: friendsAndPeople.src,
   },
 ];
+/* -------------------------------------------------------------------------- */
 
-// Contact Me
+/* ------------------------------ CONTACT ME ---------------------------------- */
 export const contactMe = true;
 export const contactMeText =
   "I'm always open to chat, helping out and open to new projects. Drop me a message 😄";
 export const contactMeButtonText = "Send me an email";
 export const contactEmail = "sanchezfdez.javier@gmail.com";
+/* ---------------------------------------------------------------------------- */
 
-// Footer
+/* ------------------------------ FOOTER ---------------------------------- */
 export const showFooter = true;
 export const footerText =
   "© Copyright 2022 Javier Sánchez Fernández — All rights reserved";
+/* ------------------------------------------------------------------------ */

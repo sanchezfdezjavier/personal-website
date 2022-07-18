@@ -30,17 +30,12 @@ import { Fragment } from "react/cjs/react.production.min";
 export default function Home() {
   const { x, y } = useWindowScroll();
   return (
-    // TODO: Fix responsive behaviour
     // TODO: SEO best practices
-    // TODO: Optimize images
     // TODO: Fix highlight color
-    // ::selection {
-    //   color: white !important;
-    //   background: #143191 !important;
-    // }
     <Fragment>
       <Head>
         <title>{title}</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <div className={styles["main-container"]}>
         <Navbar />
