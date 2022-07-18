@@ -1,5 +1,3 @@
-import { useWindowDimensions } from "../../hooks/WindowsDimensions";
-
 import styles from "./BookCover.module.css";
 
 import bookCoverOverlay from "../../assets/books-covers/book-overlay.png";
