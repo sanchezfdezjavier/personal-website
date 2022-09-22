@@ -71,6 +71,7 @@ import principles from "./assets/books-covers/principles-cover.jpg";
 import leanStartup from "./assets/books-covers/the-lean-startup-cover.jpg";
 import zeroOne from "./assets/books-covers/zero-to-one-cover.jpg";
 import friendsAndPeople from "./assets/books-covers/htwfandip.jpg";
+import theLikeSwitch from "./assets/books-covers/thelikeswitch.jpg";
 
 export const bookCovers = [
   { title: "The Lean Startup", src: leanStartup.src },
@@ -85,6 +86,7 @@ export const bookCovers = [
     title: "How to Win Friends and Influence People",
     src: friendsAndPeople.src,
   },
+  { title: "The Like Switch", src: theLikeSwitch.src },
 ];
 /* -------------------------------------------------------------------------- */
 
@@ -92,7 +94,7 @@ export const bookCovers = [
 export const contactMe = true;
 export const contactMeText =
   "I'm always open to chat, helping out and open to new projects. Drop me a message 😄";
-export const contactMeButtonText = "Send me an email";
+export const contactMeButtonText = "Email me";
 export const contactEmail = "sanchezfdez.javier@gmail.com";
 /* ---------------------------------------------------------------------------- */
 
