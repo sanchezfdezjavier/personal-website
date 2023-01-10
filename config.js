@@ -72,21 +72,23 @@ import leanStartup from "./assets/books-covers/the-lean-startup-cover.jpg";
 import zeroOne from "./assets/books-covers/zero-to-one-cover.jpg";
 import friendsAndPeople from "./assets/books-covers/htwfandip.jpg";
 import theLikeSwitch from "./assets/books-covers/thelikeswitch.jpg";
+import deepWork from "./assets/books-covers/deepwork.jpg";
 
 export const bookCovers = [
-  { title: "The Lean Startup", src: leanStartup.src },
   {
     title: "Atomic Habits",
     src: atomic.src,
   },
-  { title: "Principles", src: principles.src },
-  { title: "Zero to One", src: zeroOne.src },
-  { title: "Hooked", src: hooked.src },
+  { title: "Deep Work", src: deepWork.src },
   {
     title: "How to Win Friends and Influence People",
     src: friendsAndPeople.src,
   },
+  { title: "The Lean Startup", src: leanStartup.src },
+  { title: "Principles", src: principles.src },
+  { title: "Zero to One", src: zeroOne.src },
   { title: "The Like Switch", src: theLikeSwitch.src },
+  { title: "Hooked", src: hooked.src },
 ];
 /* -------------------------------------------------------------------------- */
 
