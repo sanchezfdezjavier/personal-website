@@ -42,6 +42,7 @@ export default function NavLinks() {
             href={externalLinks.github}
             className={styles["navbar-link"]}
             target="_blank"
+            rel="noreferrer"
           >
             <Button light color="default" auto>
               <AiFillGithub /> &nbsp;Github
