@@ -47,6 +47,7 @@ export default function Home() {
         <Hero />
         {showMainButton && <MainButton />}
         {showAboutme && <AboutMe />}
+        {showAboutme && <AboutMe />}
         {showProjects && <Projects />}
         {showBooks && <EssentialReads />}
         <ContactMe />
