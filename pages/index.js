@@ -42,7 +42,7 @@ export default function Home() {
         <div className={styles["theme-switch__container"]}>
           <ThemeSwitch />
         </div>
-        {true && <BurgerMenu />}
+        <BurgerMenu />
         {showAvatar && <Avatar />}
         <Hero />
         {showMainButton && <MainButton />}
