@@ -1,3 +1,5 @@
+![Preview](./assets/preview.png)
+
 ## For running the website locally
 
 First, run the development server:
