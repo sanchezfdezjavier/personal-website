@@ -1,6 +1,6 @@
 import { Fragment } from "react/cjs/react.production.min";
 
-import { externalLinks } from "../../config";
+import { externalLinks, showResumeButton } from "../../config";
 
 import styles from "./NavLinks.module.css";
 
@@ -49,18 +49,20 @@ export default function NavLinks() {
             </Button>
           </a>
         </li>
-        <li className={styles["navbar-link__list-item"]}>
-          <a
-            href={externalLinks.resume}
-            target="_blank"
-            rel="noreferrer"
-            className={styles["navbar-link"]}
-          >
-            <Button light color="default" auto>
-              <HiOutlineDocumentText /> &nbsp;Resume
-            </Button>
-          </a>
-        </li>
+        {showResumeButton && (
+          <li className={styles["navbar-link__list-item"]}>
+            <a
+              href={externalLinks.resume}
+              target="_blank"
+              rel="noreferrer"
+              className={styles["navbar-link"]}
+            >
+              <Button light color="default" auto>
+                <HiOutlineDocumentText /> &nbsp;Resume
+              </Button>
+            </a>
+          </li>
+        )}
         <li className={styles["navbar-link__list-item"]}>
           <a
             href={externalLinks.linkedin}

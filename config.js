@@ -22,6 +22,9 @@ export const showMainButton = true;
 export const mainButtonText = "My Blog";
 /* -------------------------------------------------------------------------- */
 
+/* ------------------------------ NAVBAR -------------------------------------- */
+export const showResumeButton = false;
+
 /* ------------------------------ ABOUT ME ---------------------------------- */
 export const showAboutme = true;
 /* -------------------------------------------------------------------------- */
@@ -30,8 +33,6 @@ export const showAboutme = true;
 export const showNavbarLinks = true;
 export const externalLinks = {
   github: "https://github.com/sanchezfdezjavier",
-  resume:
-    "https://docs.google.com/document/d/1yjZM0yORhAmvz0hcGOjrZ4MK1KgP68buQTprcvOTkzM/edit?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sanchezfdezjavier/",
   blog: "https://blog.javisf.com/",
   twitter: "https://twitter.com/javisnchztech",

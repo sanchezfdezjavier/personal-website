@@ -12,15 +12,16 @@ export default function AboutMe() {
       <div className="section-text__container">
         <SectionText>
           Hey! My name is Javi, I have brain of an Engineer, the heart of a
-          Designer, and the dreams and passion of a Founder. <br />
-          Today, I'm a Software Engineer at Ubuntu/Canonical, developing
-          open-source software mainly in Python. I spend most of time building
-          side projects like this website, hopefully one of those would become a
-          successful startup.
+          Designer, and the dreams of a founder. <br />
           <br />
+          I'm a Software Engineer at Ubuntu/Canonical, developing open-source
+          software for cloud-based applications using Python, Kubernetes and
+          AWS. Aside from my day job, I love building in side-projects which
+          involve design, web development, systems architecture, understanding
+          users and many more. <br />
           <br />
-          To recharge my batteries and forget about work, I love going outdoors
-          surfing, skiing, traveling, and hanging out with people and friends.
+          To recharge my batteries, I spend time outdoors surfing, skiing,
+          traveling, reading and hanging out with people and friends.
         </SectionText>
       </div>
     </div>

@@ -7,7 +7,12 @@ import {
   HiOutlineArrowNarrowRight,
   HiOutlineDocumentText,
 } from "react-icons/hi";
-import { externalLinks, showAboutme, showBooks } from "../../config";
+import {
+  externalLinks,
+  showAboutme,
+  showBooks,
+  showResumeButton,
+} from "../../config";
 import OutsideAlerter from "../OutsideAlerter/OutsideAlerter";
 
 import styles from "./BurgerMenu.module.css";
@@ -71,18 +76,20 @@ export default function BurgerMenu() {
                   </Button>
                 </a>
               </li>
-              <li className={styles["navbar-link__list-item"]}>
-                <a
-                  href={externalLinks.resume}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={styles["navbar-link"]}
-                >
-                  <Button light color="default" size="xl">
-                    <HiOutlineDocumentText /> &nbsp;Resume
-                  </Button>
-                </a>
-              </li>
+              {showResumeButton && (
+                <li className={styles["navbar-link__list-item"]}>
+                  <a
+                    href={externalLinks.resume}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={styles["navbar-link"]}
+                  >
+                    <Button light color="default" size="xl">
+                      <HiOutlineDocumentText /> &nbsp;Resume
+                    </Button>
+                  </a>
+                </li>
+              )}
               <li className={styles["navbar-link__list-item"]}>
                 <a
                   href={externalLinks.linkedin}
