@@ -16,9 +16,9 @@ export default function AboutMe() {
           <br />
           I'm a Software Engineer at Ubuntu/Canonical, developing open-source
           software for cloud-based applications using Python, Kubernetes and
-          AWS. Aside from my day job, I love building in side-projects which
-          involve design, web development, systems architecture, understanding
-          users and many more. <br />
+          AWS. Aside from my job, I love building in side-projects which involve
+          design, web development, systems architecture, understanding users and
+          many more. <br />
           <br />
           To recharge my batteries, I spend time outdoors surfing, skiing,
           traveling, reading and hanging out with people and friends.
