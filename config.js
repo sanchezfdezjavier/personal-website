@@ -47,12 +47,18 @@ export const projectsText = "";
 import crocos from "./assets/projects-covers/website-crocos-project.jpg";
 import telecode from "./assets/projects-covers/telecode.jpg";
 import magma from "./assets/projects-covers/magma.png";
+import lidar from "./assets/projects-covers/lidar.png";
 
 export const projects = [
   {
     title: "4G Core Network with Charmed Magma",
     image: magma,
     link: "https://github.com/canonical/charmed-magma/",
+  },
+  {
+    title: "Self-driving LiDAR cone detection",
+    image: lidar,
+    link: "https://github.com/sanchezfdezjavier/Self-driving-LiDAR-cone-detection",
   },
   {
     title: "NFT Collection",
