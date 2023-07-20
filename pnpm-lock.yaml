@@ -2,13 +2,13 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@nextui-org/react':
-    specifier: ^1.0.2-beta.3
+    specifier: 1.0.2-beta.5-dbg4
     version: 1.0.2-beta.5-dbg4(react-dom@17.0.2)(react@17.0.2)
   '@vercel/analytics':
-    specifier: ^1.0.0
+    specifier: ^1.0.1
     version: 1.0.1
   framer-motion:
-    specifier: ^6.2.4
+    specifier: ^6.5.1
     version: 6.5.1(react-dom@17.0.2)(react@17.0.2)
   next:
     specifier: 12.0.9
@@ -23,10 +23,10 @@ dependencies:
     specifier: 17.0.2
     version: 17.0.2(react@17.0.2)
   react-icons:
-    specifier: ^4.3.1
+    specifier: ^4.10.1
     version: 4.10.1(react@17.0.2)
   react-use:
-    specifier: ^17.3.2
+    specifier: ^17.4.0
     version: 17.4.0(react-dom@17.0.2)(react@17.0.2)
 
 devDependencies:
@@ -48,9 +48,6 @@ devDependencies:
   jest-environment-jsdom:
     specifier: ^29.6.1
     version: 29.6.1
-  react-test-renderer:
-    specifier: ^18.2.0
-    version: 18.2.0(react@17.0.2)
 
 packages:
 
@@ -1992,7 +1989,7 @@ packages:
       '@react-stately/grid': 3.7.0(react@17.0.2)
       '@react-stately/selection': 3.13.2(react@17.0.2)
       '@react-types/grid': 3.0.1(react@17.0.2)
-      '@react-types/shared': 3.18.1(react@17.0.2)
+      '@react-types/shared': 3.11.0(react@17.0.2)
       '@react-types/table': 3.7.0(react@17.0.2)
       react: 17.0.2
     dev: false
@@ -4174,27 +4171,6 @@ packages:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
     dev: true
 
-  /react-shallow-renderer@16.15.0(react@17.0.2):
-    resolution: {integrity: sha512-oScf2FqQ9LFVQgA73vr86xl2NaOIX73rh+YFqcOp68CWj56tSfgtGKrEbyhCj0rSijyG9M1CYprTh39fBi5hzA==}
-    peerDependencies:
-      react: ^16.0.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      object-assign: 4.1.1
-      react: 17.0.2
-      react-is: 18.2.0
-    dev: true
-
-  /react-test-renderer@18.2.0(react@17.0.2):
-    resolution: {integrity: sha512-JWD+aQ0lh2gvh4NM3bBM42Kx+XybOxCpgYK7F8ugAlpaTSnWsX+39Z4XkOykGZAHrjwwTZT3x3KxswVWxHPUqA==}
-    peerDependencies:
-      react: ^18.2.0
-    dependencies:
-      react: 17.0.2
-      react-is: 18.2.0
-      react-shallow-renderer: 16.15.0(react@17.0.2)
-      scheduler: 0.23.0
-    dev: true
-
   /react-universal-interface@0.6.2(react@17.0.2)(tslib@2.6.0):
     resolution: {integrity: sha512-dg8yXdcQmvgR13RIlZbTRQOoUrDciFVoSBZILwjE2LFISxZZ8loVJKAkuzswl5js8BHda79bIb2b84ehU8IjXw==}
     peerDependencies:
@@ -4378,12 +4354,6 @@ packages:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
-
-  /scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
-    dependencies:
-      loose-envify: 1.4.0
-    dev: true
 
   /screenfull@5.2.0:
     resolution: {integrity: sha512-9BakfsO2aUQN2K9Fdbj87RJIEZ82Q9IGim7FqM5OsebfoFC6ZHXgDq/KvniuLTPdeM8wY2o6Dj3WQ7KeQCj3cA==}
