@@ -1,7 +1,3 @@
-import styles from "./AboutMe.module.css";
-
-import { Text } from "@nextui-org/react";
-
 import SectionTitle from "../SectionTitle/SectionTitle";
 import SectionText from "../SectionText/SectionText";
 
@@ -16,7 +12,7 @@ export default function AboutMe() {
           <br />
           I'm a Software Engineer at Ubuntu/Canonical, developing open-source
           software for cloud-based applications using Python, Kubernetes and
-          AWS. Aside from my job, I love building in side-projects which involve
+          AWS. Aside from my job, I love building side-projects which involve
           design, web development, systems architecture, understanding users and
           many more. <br />
           <br />

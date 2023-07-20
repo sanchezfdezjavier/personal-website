@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./BookShelf.module.css";
 
 import BookCover from "../BookCover/BookCover";
