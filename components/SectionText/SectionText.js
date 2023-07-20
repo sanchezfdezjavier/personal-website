@@ -1,7 +1,7 @@
 import { useTheme } from "@nextui-org/react";
 
 import { Text } from "@nextui-org/react";
-import { Fragment } from "react/cjs/react.production.min";
+import { Fragment } from "react";
 
 export default function SectionText(props) {
   const textColorLight = "#666666";

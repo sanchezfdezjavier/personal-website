@@ -1,10 +1,7 @@
-import { Button, useTheme } from "@nextui-org/react";
-import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedin, FaPaperPlane, FaTwitter } from "react-icons/fa";
-import { HiOutlineDocumentText, HiOutlineExternalLink } from "react-icons/hi";
+import { useTheme } from "@nextui-org/react";
 import { useWindowScroll } from "react-use";
-import { Fragment } from "react/cjs/react.production.min";
-import { externalLinks, title } from "../../config";
+import { Fragment } from "react";
+import { title } from "../../config";
 import NavLinks from "../NavLinks/NavLinks";
 import styles from "./Navbar.module.css";
 

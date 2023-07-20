@@ -2,6 +2,8 @@ import styles from "../styles/Home.module.css";
 
 import Head from "next/head";
 
+import { Fragment } from "react";
+
 import { useWindowScroll } from "react-use";
 
 import Avatar from "../components/Avatar/Avatar";
@@ -16,22 +18,20 @@ import Projects from "../components/Projects/Projects";
 import ContactMe from "../components/ContactMe/ContactMe";
 import ThemeSwitch from "../components/ThemeSwitch/ThemeSwitch";
 
-import { title } from "../config";
-
 import {
+  title,
   showMainButton,
   showAboutme,
   showProjects,
   showBooks,
   showAvatar,
 } from "../config";
-import { Fragment } from "react/cjs/react.production.min";
+
 
 export default function Home() {
   const { x, y } = useWindowScroll();
   return (
     // TODO: SEO best practices
-    // TODO: Fix highlight color
     <Fragment>
       <Head>
         <title>{title}</title>

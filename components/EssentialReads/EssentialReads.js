@@ -1,9 +1,5 @@
 import React, { Fragment } from "react";
 
-import styles from "./EssentialReads.module.css";
-
-import { Text } from "@nextui-org/react";
-
 import BookShelf from "../BookShelf/BookShelf";
 
 import { essentialReadsText } from "../../config";

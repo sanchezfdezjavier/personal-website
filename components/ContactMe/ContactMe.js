@@ -1,7 +1,5 @@
 import { Button } from "@nextui-org/react";
 
-import styles from "./ContactMe.module.css";
-
 import { contactMeText, contactMeButtonText, contactEmail } from "../../config";
 
 import SectionTitle from "../SectionTitle/SectionTitle";
