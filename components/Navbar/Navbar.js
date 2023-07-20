@@ -1,6 +1,6 @@
 import { useTheme } from "@nextui-org/react";
 import { useWindowScroll } from "react-use";
-import { Fragment } from "react/cjs/react.production.min";
+import { Fragment } from "react";
 import { title } from "../../config";
 import NavLinks from "../NavLinks/NavLinks";
 import styles from "./Navbar.module.css";

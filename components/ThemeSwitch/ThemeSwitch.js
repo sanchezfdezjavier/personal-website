@@ -1,6 +1,6 @@
 import { useTheme as useNextTheme } from "next-themes";
 import { Switch } from "@nextui-org/react";
-import { Fragment } from "react/cjs/react.production.min";
+import { Fragment } from "react";
 
 import { useTheme } from "@nextui-org/react";
 
