@@ -7,7 +7,9 @@ export default function Hero() {
         {title}
       </h1>
       {showSubtitle && (
-        <h3 className="text-4xl font-light tracking-tight">{subtitle}</h3>
+        <h3 className="text-center text-[1.6rem] font-light tracking-tight">
+          {subtitle}
+        </h3>
       )}
     </div>
   );
