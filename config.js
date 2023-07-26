@@ -108,7 +108,7 @@ export const bookCovers = [
 /* ------------------------------ CONTACT ME ---------------------------------- */
 export const contactMe = true;
 export const contactMeText =
-  "I'm always open to chat, helping out and open to new projects. Drop me a message 😄";
+  "I'm always open to chat, helping out and open to new projects. Drop me a message!";
 export const contactMeButtonText = "Email me";
 export const contactEmail = "sanchezfdez.javier@gmail.com";
 /* ---------------------------------------------------------------------------- */
@@ -116,5 +116,5 @@ export const contactEmail = "sanchezfdez.javier@gmail.com";
 /* ------------------------------ FOOTER ---------------------------------- */
 export const showFooter = true;
 export const footerText =
-  "© Copyright 2022 Javier Sánchez Fernández — All rights reserved";
+  "© Copyright 2023 Javier Sánchez Fernández — All rights reserved";
 /* ------------------------------------------------------------------------ */

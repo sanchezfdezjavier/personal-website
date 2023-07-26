@@ -1,22 +1,19 @@
-import styles from "../styles/Home.module.css";
-
 import Head from "next/head";
 
 import { Fragment } from "react";
 
 import { useWindowScroll } from "react-use";
 
-import Avatar from "../components/Avatar/Avatar";
-import MainButton from "../components/MainButton/MainButton";
-import Hero from "../components/Hero/Hero";
-import AboutMe from "../components/AboutMe/AboutMe";
-import EssentialReads from "../components/EssentialReads/EssentialReads";
-import Footer from "../components/Footer/Footer";
-import Navbar from "../components/Navbar/Navbar";
-import BurgerMenu from "../components/BurgerMenu/BurgerMenu";
-import Projects from "../components/Projects/Projects";
-import ContactMe from "../components/ContactMe/ContactMe";
-import ThemeSwitch from "../components/ThemeSwitch/ThemeSwitch";
+import Avatar from "../components/Avatar";
+import MainButton from "../components/MainButton";
+import Hero from "../components/Hero";
+import AboutMe from "../components/AboutMe";
+import EssentialReads from "../components/EssentialReads";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import BurgerMenu from "../components/BurgerMenu";
+import Projects from "../components/Projects";
+import ContactMe from "../components/ContactMe";
 
 import {
   title,
@@ -27,7 +24,6 @@ import {
   showAvatar,
 } from "../config";
 
-
 export default function Home() {
   const { x, y } = useWindowScroll();
   return (
@@ -37,11 +33,8 @@ export default function Home() {
         <title>{title}</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      <div className={styles["main-container"]}>
+      <div className="flex min-h-screen flex-col items-center justify-center">
         <Navbar />
-        <div className={styles["theme-switch__container"]}>
-          <ThemeSwitch />
-        </div>
         <BurgerMenu />
         {showAvatar && <Avatar />}
         <Hero />
