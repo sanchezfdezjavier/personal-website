@@ -9,7 +9,10 @@ export default function ContactMe() {
       <SectionTitle>Contact Me</SectionTitle>
       <SectionText>{contactMeText}</SectionText>
       <a href={`mailto:${contactEmail}`}>
-        <button className="mt-8 rounded-md bg-slate-900 p-3 font-medium text-white shadow-md shadow-slate-800/50 transition-all hover:-translate-y-1 hover:bg-slate-800">
+        <button
+          className="mt-8 rounded-md bg-slate-900 p-3 font-medium text-white shadow-md shadow-slate-800/50 transition-all hover:-translate-y-1 hover:bg-slate-800"
+          aria-label="Contact me button"
+        >
           {contactMeButtonText}
         </button>
       </a>

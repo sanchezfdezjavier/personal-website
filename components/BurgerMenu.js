@@ -25,6 +25,7 @@ export default function BurgerMenu() {
           <button
             className="rounded-xl bg-white p-4 opacity-90  backdrop-blur-md"
             onClick={handleToggleBurger}
+            aria-label="Toggle burger menu"
           >
             <CgMenu size={25} />
           </button>
