@@ -6,7 +6,7 @@ import { footerText } from "../config";
 
 export default function Footer() {
   return (
-    <div className="mt-[8rem] flex w-screen flex-col items-center bg-gray-100 py-[2rem] text-slate-400">
+    <div className="mt-[8rem] flex w-screen flex-col items-center bg-gradient-to-t from-slate-200 py-[2rem] text-slate-400">
       <div className="flex w-11/12 flex-row items-center justify-center">
         <span className="mr-1 inline-block">Built using</span>
         <span className="m-1 inline-block">
