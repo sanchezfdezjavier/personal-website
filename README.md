@@ -1,4 +1,4 @@
-![Preview](./assets/preview.png)
+![Preview](./preview.png)
 
 ## For running the website locally
 
