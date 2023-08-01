@@ -4,6 +4,8 @@ import { Fragment } from "react";
 
 import { useWindowScroll } from "react-use";
 
+import Spline from "@splinetool/react-spline";
+
 import Avatar from "../components/Avatar";
 import MainButton from "../components/MainButton";
 import Hero from "../components/Hero";
@@ -38,6 +40,10 @@ export default function Home() {
         <BurgerMenu />
         {showAvatar && <Avatar />}
         <Hero />
+        <Spline
+          scene="https://prod.spline.design/ZEPBj2MJ9HXMevF6/scene.splinecode"
+          className="absolute right-[-55rem] top-[20rem] z-[-1]"
+        />
         {showMainButton && <MainButton />}
         {showAboutme && <AboutMe />}
         {showProjects && <Projects />}
