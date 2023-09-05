@@ -7,7 +7,7 @@ export default function Avatar() {
     <div className="relative mb-12 mt-[4rem] block h-[14rem] w-[14rem] items-center justify-center lg:mt-[12rem] lg:h-[17rem] lg:w-[17rem]">
       <Image
         src={avatarSrc}
-        className="rounded-[3rem]"
+        className="rounded-[1rem] border border-solid border-gray-400 shadow-md"
         alt="avatar"
         layout="fill"
       />

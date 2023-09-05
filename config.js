@@ -48,8 +48,14 @@ import crocos from "./assets/projects-covers/website-crocos-project.jpg";
 import telecode from "./assets/projects-covers/telecode.jpg";
 import magma from "./assets/projects-covers/magma.png";
 import lidar from "./assets/projects-covers/lidar.png";
+import stack from "./assets/projects-covers/stack.jpg";
 
 export const projects = [
+  {
+    title: "Next gen no-code AI applications",
+    image: stack,
+    link: "https://stackai.com/",
+  },
   {
     title: "4G Core Network with Charmed Magma",
     image: magma,
@@ -59,11 +65,6 @@ export const projects = [
     title: "Self-driving LiDAR cone detection",
     image: lidar,
     link: "https://github.com/sanchezfdezjavier/Self-driving-LiDAR-cone-detection",
-  },
-  {
-    title: "NFT Collection",
-    image: crocos,
-    link: "https://thecrocoslocos.com/",
   },
   {
     title: "Hackathon",
@@ -83,7 +84,7 @@ import hooked from "./assets/books-covers/hooked-cover.jpg";
 import principles from "./assets/books-covers/principles-cover.jpg";
 import leanStartup from "./assets/books-covers/the-lean-startup-cover.jpg";
 import zeroOne from "./assets/books-covers/zero-to-one-cover.jpg";
-import friendsAndPeople from "./assets/books-covers/htwfandip.jpg";
+import howto from "./assets/books-covers/howto.jpg";
 import theLikeSwitch from "./assets/books-covers/thelikeswitch.jpg";
 import deepWork from "./assets/books-covers/deepwork.jpg";
 
@@ -95,7 +96,7 @@ export const bookCovers = [
   { title: "Deep Work", src: deepWork.src },
   {
     title: "How to Win Friends and Influence People",
-    src: friendsAndPeople.src,
+    src: howto.src,
   },
   { title: "The Lean Startup", src: leanStartup.src },
   { title: "Principles", src: principles.src },
