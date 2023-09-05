@@ -10,13 +10,18 @@ export default function AboutMe() {
       <SectionTitle>About Me </SectionTitle>
       <SectionText>
         Hey! My name is Javi, I have brain of an Engineer, the heart of a
-        Designer, and the dreams of a founder. <br />
+        Designer, and the dreams of a founder. Currently I'm a{" "}
+        <span className="font-bold"> Founding Engineer </span>
+        at{" "}
+        <a
+          target="_blank"
+          className="font-medium underline transition-colors hover:text-black"
+          href="https://stack-ai.com/"
+        >
+          Stack AI
+        </a>
+        , developing the next generation no-code AI tools.
         <br />
-        I'm a Software Engineer at Ubuntu/Canonical, developing open-source
-        software for cloud-based applications using Python, Kubernetes and AWS.
-        Aside from my job, I love building side-projects which involve design,
-        web development, systems architecture, understanding users and many
-        more. <br />
         <br />
         To recharge my batteries, I spend time outdoors surfing, skiing,
         traveling, reading and hanging out with people and friends.
