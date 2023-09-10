@@ -54,7 +54,7 @@ export const projects = [
   {
     title: "Next gen no-code AI applications",
     image: stack,
-    link: "https://stackai.com/",
+    link: "https://stack-ai.com/",
   },
   {
     title: "4G Core Network with Charmed Magma",
