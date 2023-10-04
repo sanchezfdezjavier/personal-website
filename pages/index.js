@@ -1,11 +1,7 @@
 import Head from "next/head";
-
 import { Fragment } from "react";
-
-import { useWindowScroll } from "react-use";
-
 import Avatar from "../components/Avatar";
-import MainButton from "../components/MainButton";
+import CallToAction from "../components/CallToAction";
 import Hero from "../components/Hero";
 import AboutMe from "../components/AboutMe";
 import EssentialReads from "../components/EssentialReads";
@@ -14,10 +10,9 @@ import Navbar from "../components/Navbar";
 import BurgerMenu from "../components/BurgerMenu";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
-
 import {
   title,
-  showMainButton,
+  showCallToAction,
   showAboutme,
   showProjects,
   showBooks,
@@ -25,9 +20,7 @@ import {
 } from "../config";
 
 export default function Home() {
-  const { x, y } = useWindowScroll();
   return (
-    // TODO: SEO best practices
     <Fragment>
       <Head>
         <title>{title}</title>
@@ -38,7 +31,7 @@ export default function Home() {
         <BurgerMenu />
         {showAvatar && <Avatar />}
         <Hero />
-        {showMainButton && <MainButton />}
+        {showCallToAction && <CallToAction />}
         {showAboutme && <AboutMe />}
         {showProjects && <Projects />}
         {showBooks && <EssentialReads />}

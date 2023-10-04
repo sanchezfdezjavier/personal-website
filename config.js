@@ -17,9 +17,10 @@ export const showSubtitle = true;
 export const subtitle = "Engineer, Developer and Creator";
 /* -------------------------------------------------------------------------- */
 
-/* ------------------------------ MAIN BUTTON ------------------------------- */
-export const showMainButton = true;
-export const mainButtonText = "My Blog";
+/* ------------------------------ CALL TO ACTION ------------------------------- */
+export const showCallToAction = true;
+export const mainButtonText = "Stack AI";
+export const secondaryButtonText = "My Blog";
 /* -------------------------------------------------------------------------- */
 
 /* ------------------------------ NAVBAR -------------------------------------- */
@@ -36,6 +37,7 @@ export const externalLinks = {
   linkedin: "https://www.linkedin.com/in/sanchezfdezjavier/",
   blog: "https://blog.javisf.com/",
   twitter: "https://twitter.com/javisnchztech",
+  stackai: "https://stack-ai.com/",
 };
 /* -------------------------------------------------------------------------- */
 
