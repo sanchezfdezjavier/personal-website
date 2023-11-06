@@ -1,5 +1,6 @@
 import SectionTitle from "./SectionTitle";
 import SectionText from "./SectionText";
+import Link from "next/link";
 
 export default function AboutMe() {
   return (
@@ -13,13 +14,13 @@ export default function AboutMe() {
         Designer, and the dreams of a founder. Currently I'm a{" "}
         <span className="font-bold"> Founding Engineer </span>
         at{" "}
-        <a
+        <Link
           target="_blank"
           className="font-medium underline transition-colors hover:text-black"
           href="https://stack-ai.com/"
         >
           Stack AI
-        </a>
+        </Link>
         , developing the next generation no-code AI tools.
         <br />
         <br />
