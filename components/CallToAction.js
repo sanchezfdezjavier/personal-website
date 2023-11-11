@@ -4,7 +4,7 @@ import { mainButtonText, externalLinks, secondaryButtonText } from "../config";
 
 export default function CallToAction() {
   return (
-    <div className="mt-8 grid grid-cols-1 gap-10 py-[2rem] md:grid-cols-2">
+    <div className="mt-8 grid grid-cols-1 gap-2 py-[2rem] md:grid-cols-2">
       <Link
         href={externalLinks.stackai}
         target="_blank"
