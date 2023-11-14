@@ -9,7 +9,6 @@ export default function BookCover(props) {
       <Image
         src={props.coverSrc}
         alt="book cover"
-        layout="intrinsic"
         width={200 * sizeMultiplier}
         height={300 * sizeMultiplier}
       />
@@ -17,7 +16,6 @@ export default function BookCover(props) {
         <Image
           src={bookCoverOverlay.src}
           alt="book cover overlay"
-          layout="intrinsic"
           width={200 * sizeMultiplier}
           height={300 * sizeMultiplier}
         />
