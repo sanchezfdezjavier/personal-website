@@ -10,6 +10,7 @@ import Navbar from "../components/Navbar";
 import BurgerMenu from "../components/BurgerMenu";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
+import Stack from "react-stackai";
 import {
   title,
   showCallToAction,
@@ -38,6 +39,7 @@ export default function Home() {
         <ContactMe />
         <Footer />
       </div>
+      <Stack project="https://www.stack-ai.com/embed/46bf5b6a-9b4d-48f6-8a13-cdfc4fe58520/11da0c81-afe2-4ccd-b498-807bbde8e7f1/653fefcfcc37c0093d55e6a9" />
     </Fragment>
   );
 }

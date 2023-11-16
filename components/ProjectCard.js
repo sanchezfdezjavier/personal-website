@@ -8,7 +8,6 @@ export default function ProjectCard(props) {
           className="rounded-t-lg"
           src={props.image}
           alt="project preview image"
-          layout="responsive"
           width={525}
           height={320}
         />
