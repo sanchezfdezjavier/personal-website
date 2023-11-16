@@ -10,6 +10,7 @@ import Navbar from "../components/Navbar";
 import BurgerMenu from "../components/BurgerMenu";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
+import Stack from "react-stackai";
 import {
   title,
   showCallToAction,
@@ -18,7 +19,6 @@ import {
   showBooks,
   showAvatar,
 } from "../config";
-import Iframe from "react-iframe";
 
 export default function Home() {
   return (
@@ -39,22 +39,7 @@ export default function Home() {
         <ContactMe />
         <Footer />
       </div>
-      <Iframe
-        id="responsiveIframe"
-        class="chatbot-container"
-        src="https://www.stack-ai.com/embed/46bf5b6a-9b4d-48f6-8a13-cdfc4fe58520/11da0c81-afe2-4ccd-b498-807bbde8e7f1/653fefcfcc37c0093d55e6a9"
-        styles={{
-          position: "fixed",
-          zIndex: "9999999999",
-          overflow: "hidden",
-          width: "23.5rem",
-          height: "38rem",
-          bottom: "0",
-          right: "0",
-          border: "none",
-          borderRadius: "10px",
-        }}
-      />
+      <Stack project="https://www.stack-ai.com/embed/46bf5b6a-9b4d-48f6-8a13-cdfc4fe58520/11da0c81-afe2-4ccd-b498-807bbde8e7f1/653fefcfcc37c0093d55e6a9" />
     </Fragment>
   );
 }
