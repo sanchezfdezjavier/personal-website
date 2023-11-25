@@ -11,7 +11,7 @@ export default function AboutMe() {
       <SectionTitle>About Me </SectionTitle>
       <SectionText>
         Hey! My name is Javi, I have brain of an Engineer, the heart of a
-        Designer, and the dreams of a founder. Currently I'm a{" "}
+        Designer, and the goals of a founder. Currently I'm a{" "}
         <span className="font-bold"> Founding Engineer </span>
         at{" "}
         <Link
