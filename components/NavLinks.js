@@ -3,7 +3,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineDocumentText, HiOutlineExternalLink } from "react-icons/hi";
 import NavLink from "./NavLink";
-
+import Link from 'next/link';
 import { showAboutme, showBooks } from "../config";
 
 export default function NavLinks() {
@@ -11,44 +11,44 @@ export default function NavLinks() {
     <ul className="flex list-none items-center justify-center">
       {showAboutme && (
         <li className="mx-4">
-          <a href="#about-me-section">
+          <Link href="#about-me-section">
             <NavLink>About Me</NavLink>
-          </a>
+          </Link>
         </li>
       )}
       {showBooks && (
         <li className="mx-5">
-          <a href="#book-shelf" rel="noreferrer">
+          <Link href="#book-shelf" rel="noreferrer">
             <NavLink>Books</NavLink>
-          </a>
+          </Link>
         </li>
       )}
       <li className="mx-5">
-        <a href={externalLinks.github} target="_blank" rel="noreferrer">
+        <Link href={externalLinks.github} target="_blank" rel="noreferrer">
           <NavLink icon={<AiFillGithub />}>Github</NavLink>
-        </a>
+        </Link>
       </li>
       {showResumeButton && (
         <li className="mx-5">
-          <a href={externalLinks.resume} target="_blank" rel="noreferrer">
+          <Link href={externalLinks.resume} target="_blank" rel="noreferrer">
             <NavLink icon={<HiOutlineDocumentText />}>Resume</NavLink>
-          </a>
+          </Link>
         </li>
       )}
       <li className="mx-5">
-        <a href={externalLinks.linkedin} target="_blank" rel="noreferrer">
+        <Link href={externalLinks.linkedin} target="_blank" rel="noreferrer">
           <NavLink icon={<FaLinkedin />}>LinkedIn</NavLink>
-        </a>
+        </Link>
       </li>
       <li className="mx-5">
-        <a href={externalLinks.twitter} target="_blank" rel="noreferrer">
+        <Link href={externalLinks.twitter} target="_blank" rel="noreferrer">
           <NavLink icon={<FaTwitter />}>Twitter</NavLink>
-        </a>
+        </Link>
       </li>
       <li className="mx-5">
-        <a href={externalLinks.blog} target="_blank" rel="noreferrer">
+        <Link href={externalLinks.blog} target="_blank" rel="noreferrer">
           <NavLink icon={<HiOutlineExternalLink />}>Blog</NavLink>
-        </a>
+        </Link>
       </li>
     </ul>
   );
