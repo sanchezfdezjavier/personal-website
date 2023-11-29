@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { CgMenu } from "react-icons/cg";
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from 'react-icons/fa6';
 import { HiOutlineExternalLink, HiOutlineDocumentText } from "react-icons/hi";
 import {
   externalLinks,
@@ -86,9 +87,7 @@ export default function BurgerMenu() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <NavLink isMobile={true} icon={<FaTwitter />}>
-                    Twitter
-                  </NavLink>
+                  <NavLink isMobile={true} icon={<FaXTwitter />}/>
                 </a>
               </li>
               <li className="my-3">

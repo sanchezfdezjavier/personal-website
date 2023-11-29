@@ -1,6 +1,7 @@
 import { externalLinks, showResumeButton } from "../config";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineDocumentText, HiOutlineExternalLink } from "react-icons/hi";
 import NavLink from "./NavLink";
 import Link from 'next/link';
@@ -42,7 +43,7 @@ export default function NavLinks() {
       </li>
       <li className="mx-5">
         <Link href={externalLinks.twitter} target="_blank" rel="noreferrer">
-          <NavLink icon={<FaTwitter />}>Twitter</NavLink>
+          <NavLink icon={<FaXTwitter />}/>
         </Link>
       </li>
       <li className="mx-5">
