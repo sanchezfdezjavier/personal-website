@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function BookCover(props) {
   const sizeMultiplier = 0.9;
   return (
-    <div className="relative m-[1rem] shadow-lg shadow-gray-600/50 transition-transform hover:-translate-y-1">
+    <div className="relative m-[1rem] shadow-md transition-all hover:-translate-y-1 hover:scale-[101%] hover:shadow-lg">
       <Image
         src={props.coverSrc}
         alt="book cover"

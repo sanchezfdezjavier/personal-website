@@ -7,8 +7,6 @@ export default function BookShelf() {
     return <BookCover key={book.title} coverSrc={book.src} />;
   });
   return (
-    <div className="mt-8 grid grid-cols-2 gap-[2rem] lg:grid-cols-4">
-      {books}
-    </div>
+    <div className="mt-8 grid grid-cols-2 gap-4 lg:grid-cols-4">{books}</div>
   );
 }
