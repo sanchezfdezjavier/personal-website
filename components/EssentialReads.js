@@ -20,7 +20,7 @@ export default function EssentialReads() {
           href="https://goodreads.com/javisf"
           target="_blank"
           rel="noreferrer"
-          className="mt-8 font-medium text-blue-900 hover:underline dark:text-blue-800"
+          className="text-sm font-medium text-blue-900 hover:underline dark:text-blue-800"
         >
           Follow me on Goodreads.
         </a>
