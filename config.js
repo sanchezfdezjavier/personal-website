@@ -14,7 +14,7 @@ export const title = "Hi, I'm Javi";
 
 /* ------------------------------ SUBTITLE ---------------------------------- */
 export const showSubtitle = true;
-export const subtitle = "Engineer, Developer and Creator";
+export const subtitle = "Engineer, Developer and Builder";
 /* -------------------------------------------------------------------------- */
 
 /* ------------------------------ CALL TO ACTION ------------------------------- */
