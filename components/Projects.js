@@ -19,7 +19,7 @@ export default function Projects() {
     <div className="mt-[10rem] flex w-11/12 flex-col items-start justify-center md:w-1/2">
       <SectionTitle>Projects</SectionTitle>
       <SectionText>{projectsText}</SectionText>
-      <div className="grid grid-cols-1 gap-[3rem] md:grid-cols-2 lg:gap-[4rem]">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:gap-[4rem]">
         {projectsList}
       </div>
     </div>

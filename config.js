@@ -49,7 +49,7 @@ export const projectsText = "";
 import telecode from "./assets/projects-covers/telecode.jpg";
 import magma from "./assets/projects-covers/magma.png";
 import lidar from "./assets/projects-covers/lidar.png";
-import stack from "./assets/projects-covers/stack.jpg";
+import stack from "./assets/projects-covers/stack.png";
 
 export const projects = [
   {
@@ -63,7 +63,7 @@ export const projects = [
     link: "https://github.com/canonical/charmed-magma/",
   },
   {
-    title: "Self-driving LiDAR cone detection",
+    title: "Self-driving car LiDAR cone detection algorithm",
     image: lidar,
     link: "https://github.com/sanchezfdezjavier/Self-driving-LiDAR-cone-detection",
   },

@@ -2,10 +2,10 @@ import Image from "next/legacy/image";
 
 export default function ProjectCard(props) {
   return (
-    <div className="rounded-xl border border-gray-300 bg-white shadow transition-all hover:-translate-y-1 hover:scale-[101%] hover:shadow-lg">
+    <div className="rounded-xl border border-gray-300 bg-white shadow-sm transition-all hover:-translate-y-1 hover:scale-[102%] hover:shadow-lg">
       <a href={props.projectLink} target="_blank" className="w-[5rem]">
         <Image
-          className="rounded-t-xl"
+          className="rounded-t-xl object-cover"
           src={props.image}
           alt="project preview image"
           width={525}
