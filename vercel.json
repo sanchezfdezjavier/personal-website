@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "chat.javisf.com"
+        }
+      ],
+      "destination": "https://www.stack-ai.com/internal_ui/46bf5b6a-9b4d-48f6-8a13-cdfc4fe58520/11da0c81-afe2-4ccd-b498-807bbde8e7f1/65faf37d412854144193723b"
+    }
+  ]
+}
