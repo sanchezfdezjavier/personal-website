@@ -36,7 +36,7 @@ export const externalLinks = {
   github: "https://github.com/sanchezfdezjavier",
   linkedin: "https://www.linkedin.com/in/sanchezfdezjavier/",
   blog: "https://blog.javisf.com/",
-  twitter: "https://twitter.com/javisnchztech",
+  twitter: "https://twitter.com/jvrsanch",
   stackai: "https://stack-ai.com/",
 };
 /* -------------------------------------------------------------------------- */
