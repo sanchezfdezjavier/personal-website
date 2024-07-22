@@ -4,7 +4,7 @@ import { FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineDocumentText, HiOutlineExternalLink } from "react-icons/hi";
 import NavLink from "./NavLink";
-import Link from 'next/link';
+import Link from "next/link";
 import { showAboutme, showBooks } from "../config";
 
 export default function NavLinks() {
@@ -25,6 +25,16 @@ export default function NavLinks() {
         </li>
       )}
       <li className="mx-5">
+        <Link href={externalLinks.linkedin} target="_blank" rel="noreferrer">
+          <NavLink icon={<FaLinkedin />}>LinkedIn</NavLink>
+        </Link>
+      </li>
+      <li className="mx-5">
+        <Link href={externalLinks.twitter} target="_blank" rel="noreferrer">
+          <NavLink icon={<FaXTwitter />} />
+        </Link>
+      </li>
+      <li className="mx-5">
         <Link href={externalLinks.github} target="_blank" rel="noreferrer">
           <NavLink icon={<AiFillGithub />}>Github</NavLink>
         </Link>
@@ -36,16 +46,6 @@ export default function NavLinks() {
           </Link>
         </li>
       )}
-      <li className="mx-5">
-        <Link href={externalLinks.linkedin} target="_blank" rel="noreferrer">
-          <NavLink icon={<FaLinkedin />}>LinkedIn</NavLink>
-        </Link>
-      </li>
-      <li className="mx-5">
-        <Link href={externalLinks.twitter} target="_blank" rel="noreferrer">
-          <NavLink icon={<FaXTwitter />}/>
-        </Link>
-      </li>
       <li className="mx-5">
         <Link href={externalLinks.blog} target="_blank" rel="noreferrer">
           <NavLink icon={<HiOutlineExternalLink />}>Blog</NavLink>

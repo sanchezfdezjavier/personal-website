@@ -4,7 +4,7 @@
 
 /* ------------------------------ AVATAR ------------------------------ */
 export const showAvatar = true;
-import avatar from "./assets/avatar_high.jpg";
+import avatar from "./public/me-san-jorge.jpg";
 export const avatarSrc = avatar.src;
 /* -------------------------------------------------------------------- */
 
@@ -14,11 +14,11 @@ export const title = "Hi, I'm Javi";
 
 /* ------------------------------ SUBTITLE ---------------------------------- */
 export const showSubtitle = true;
-export const subtitle = "Engineer, Developer and Builder";
+export const subtitle = "Engineer Building with Software";
 /* -------------------------------------------------------------------------- */
 
 /* ------------------------------ CALL TO ACTION ------------------------------- */
-export const showCallToAction = true;
+export const showCallToAction = false;
 export const mainButtonText = "Stack AI";
 export const secondaryButtonText = "My Blog";
 /* -------------------------------------------------------------------------- */
@@ -68,7 +68,7 @@ export const projects = [
     link: "https://github.com/sanchezfdezjavier/Self-driving-LiDAR-cone-detection",
   },
   {
-    title: "Hackathon",
+    title: "Telecode Hackathon",
     image: telecode,
     link: "https://telecode.etsit.upm.es/university/#/",
   },
