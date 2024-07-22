@@ -12,7 +12,7 @@ export default function AboutMe() {
       <SectionText>
         Hey! My name is Javi, I have brain of an Engineer, the heart of a
         Designer, and the goals of a founder. Currently I'm a{" "}
-        <span className="font-bold"> Founding Engineer </span>
+        <span className="font-medium text-gray-800"> Founding Engineer </span>
         at{" "}
         <Link
           target="_blank"
