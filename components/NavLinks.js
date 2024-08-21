@@ -1,29 +1,15 @@
 import { externalLinks, showResumeButton } from "../config";
 import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineDocumentText, HiOutlineExternalLink } from "react-icons/hi";
 import NavLink from "./NavLink";
 import Link from "next/link";
-import { showAboutme, showBooks } from "../config";
+import { showBooks } from "../config";
 
 export default function NavLinks() {
   return (
     <ul className="flex list-none items-center justify-center">
-      {showAboutme && (
-        <li className="mx-4">
-          <Link href="#about-me-section">
-            <NavLink>About Me</NavLink>
-          </Link>
-        </li>
-      )}
-      {showBooks && (
-        <li className="mx-5">
-          <Link href="#book-shelf" rel="noreferrer">
-            <NavLink>Books</NavLink>
-          </Link>
-        </li>
-      )}
       <li className="mx-5">
         <Link href={externalLinks.linkedin} target="_blank" rel="noreferrer">
           <NavLink icon={<FaLinkedin />}>LinkedIn</NavLink>
@@ -32,6 +18,11 @@ export default function NavLinks() {
       <li className="mx-5">
         <Link href={externalLinks.twitter} target="_blank" rel="noreferrer">
           <NavLink icon={<FaXTwitter />} />
+        </Link>
+      </li>
+      <li className="mx-4">
+        <Link href={externalLinks.instagram} target="_blank" rel="noreferrer">
+          <NavLink icon={<FaInstagram />}>Instagram</NavLink>
         </Link>
       </li>
       <li className="mx-5">
@@ -51,6 +42,13 @@ export default function NavLinks() {
           <NavLink icon={<HiOutlineExternalLink />}>Blog</NavLink>
         </Link>
       </li>
+      {showBooks && (
+        <li className="mx-5">
+          <Link href="#book-shelf" rel="noreferrer">
+            <NavLink>Books</NavLink>
+          </Link>
+        </li>
+      )}
     </ul>
   );
 }
