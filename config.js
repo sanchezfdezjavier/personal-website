@@ -35,8 +35,9 @@ export const showNavbarLinks = true;
 export const externalLinks = {
   github: "https://github.com/sanchezfdezjavier",
   linkedin: "https://www.linkedin.com/in/sanchezfdezjavier/",
-  blog: "https://blog.javisf.com/",
+  instagram: "https://www.instagram.com/javi__sanchez_",
   twitter: "https://twitter.com/jvrsanch",
+  blog: "https://blog.javisf.com/",
   stackai: "https://stack-ai.com/",
 };
 /* -------------------------------------------------------------------------- */

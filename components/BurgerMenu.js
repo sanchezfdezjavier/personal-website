@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { CgMenu } from "react-icons/cg";
-import { FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from 'react-icons/fa6';
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { HiOutlineExternalLink, HiOutlineDocumentText } from "react-icons/hi";
 import {
   externalLinks,
@@ -36,20 +36,6 @@ export default function BurgerMenu() {
             className={`fixed right-0 top-0 z-[1001] flex h-screen w-4/5 flex-col items-center justify-center bg-white p-[1rem] opacity-95 drop-shadow-2xl`}
           >
             <ul className="flex flex-col items-center">
-              {showAboutme && (
-                <li className="my-3">
-                  <a href="#about-me-section">
-                    <NavLink isMobile={true}>About Me</NavLink>
-                  </a>
-                </li>
-              )}
-              {showBooks && (
-                <li className="my-3">
-                  <a href="#book-shelf">
-                    <NavLink isMobile={true}>Books</NavLink>
-                  </a>
-                </li>
-              )}
               <li className="my-3">
                 <a href={externalLinks.github} target="_blank" rel="noreferrer">
                   <NavLink isMobile={true} icon={<AiFillGithub />}>
@@ -81,20 +67,24 @@ export default function BurgerMenu() {
                   </NavLink>
                 </a>
               </li>
+              <li className="my-4">
+                <a
+                  href={externalLinks.instagram}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <NavLink isMobile={true} icon={<FaInstagram />}>
+                    Instagram
+                  </NavLink>
+                </a>
+              </li>
               <li className="my-3">
                 <a
                   href={externalLinks.twitter}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <NavLink isMobile={true} icon={<FaXTwitter />}/>
-                </a>
-              </li>
-              <li className="my-3">
-                <a href={externalLinks.blog} target="_blank" rel="noreferrer">
-                  <NavLink isMobile={true} icon={<HiOutlineExternalLink />}>
-                    Blog
-                  </NavLink>
+                  <NavLink isMobile={true} icon={<FaXTwitter />} />
                 </a>
               </li>
             </ul>
