@@ -77,7 +77,7 @@ export const projects = [
 /* -------------------------------------------------------------------------- */
 
 /* ------------------------------ BOOKS ---------------------------------- */
-export const showBooks = true;
+export const showBooks = false;
 export const essentialReadsText =
   "Books that shaped the way I think and work every day.";
 
